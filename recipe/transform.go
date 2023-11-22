@@ -2,40 +2,76 @@ package recipe
 
 import (
 	"encoding/json"
+	"fmt"
 	"regexp"
+	"sort"
 	"strconv"
 	"strings"
 )
 
-// TransformRecipes is a placeholder function that currently calls ExtractCrystals.
-// You can extend this function with additional transformations as needed.
+// TransformRecipes processes the input JSON and returns the resulting JSON string.
 func TransformRecipes(inputJSON string) (string, error) {
-	// Placeholder implementation, currently calls ExtractCrystals
-	return ExtractCrystals(inputJSON)
-}
-
-// ExtractCrystals processes the input JSON string and returns the resulting JSON string containing all crystals.
-func ExtractCrystals(inputJSON string) (string, error) {
-	var recipes []Recipe
+	// Unmarshal the entire JSON data
+	var recipes []CraftData
 	err := json.Unmarshal([]byte(inputJSON), &recipes)
 	if err != nil {
 		return "", err
 	}
 
-	// Create a slice of CrystalData objects
-	var crystalData []CrystalData
+	// Create a slice of CraftingRecipe objects
+	var craftData []CraftingRecipe
 	for _, recipe := range recipes {
-		crystalData = append(crystalData, CrystalData{Crystal: recipe.Crystal})
+		// Extract craft type from the "Text" field using regex
+
+		craftType := extractCraftType(recipe.Text)
+		skillLevels := extractSkillLevels(recipe.LevelCap, craftType)
+		otherSkillLevels := otherRequirementSkillLevels(recipe.OtherRequirements)
+		combinedSkillLevels := combineSkillLevels(skillLevels, otherSkillLevels)
+
+		sortedSkills := sortSkillsHighestFirst(combinedSkillLevels)
+		realMainCraftType := sortedSkills[0]
+
+		items := extractRequiredItems(recipe.SynthOrDesynth)
+		name := determineCraftName(combinedSkillLevels, items, recipe.RecipeName)
+
+		// Create CraftingRecipe object
+		craftData = append(craftData, CraftingRecipe{
+			Result:        recipe.RecipeName,
+			Crystal:       recipe.Crystal,
+			MainCraft:     realMainCraftType,
+			SkillLevels:   combinedSkillLevels,
+			RequiredItems: items,
+			Name:          name,
+		})
 	}
 
-	// Marshal the CrystalData slice into JSON
-	outputData, err := json.MarshalIndent(crystalData, "", "  ")
+	// Marshal the CraftingRecipe slice into JSON
+	outputData, err := json.MarshalIndent(craftData, "", "  ")
 	if err != nil {
 		return "", err
 	}
 
 	return string(outputData), nil
 }
+
+func extractSkillLevels(levelCap string, craftType string) map[string]int {
+	intLevelCap, _ := strconv.Atoi(levelCap)
+	baseCraftLevel := map[string]int{
+		craftType: intLevelCap,
+	}
+	return baseCraftLevel
+}
+
+//// extractCraftType extracts the craft type from the "Text" field using a simple regex.
+//func extractCraftType(text string) string {
+//	// Use a simple regex to extract craft type
+//	re := regexp.MustCompile(`Guild Recipes: ([a-zA-Z]+)`)
+//	match := re.FindStringSubmatch(text)
+//	if len(match) > 1 {
+//		return strings.TrimSpace(match[1])
+//	}
+//	return ""
+//}
 
 // extractCraftType extracts the craft type from the Text field using regex.
 func extractCraftType(text string) string {
@@ -60,12 +96,72 @@ func otherRequirementSkillLevels(requirements string) map[string]int {
 	return skillLevels
 }
 
-// extractItemsFromIngredients extracts items and their counts from the ingredients string.
-func extractItemsFromIngredients(ingredientsString string) []Item {
+// combineSkillLevels combines two maps of skill levels.
+func combineSkillLevels(dest, src map[string]int) map[string]int {
+	combined := make(map[string]int)
+
+	// Copy the destination map to the combined map
+	for k, v := range dest {
+		combined[k] = v
+	}
+
+	// Add or update entries from the source map
+	for k, v := range src {
+		if existing, ok := combined[k]; ok {
+			// Choose how to handle conflicts (e.g., sum values)
+			combined[k] = existing + v
+		} else {
+			combined[k] = v
+		}
+	}
+
+	return combined
+}
+
+// extractRequiredItems extracts required items from a string.
+func extractRequiredItems(itemsString string) []Item {
+	// Split the string by commas
+	items := strings.Split(itemsString, ",")
+
+	var requiredItems []Item
+
+	// Regular expression to match quantity indicators like "x3"
+	re := regexp.MustCompile(`x(\d+)`)
+
+	for _, item := range items {
+		// Trim spaces from the item
+		item = strings.TrimSpace(item)
+
+		// Check if there's a quantity indicator
+		matches := re.FindStringSubmatch(item)
+		if len(matches) > 1 {
+			count, err := strconv.Atoi(matches[1])
+			if err != nil {
+				// Handle error
+				continue
+			}
+			// Extract the item name without the quantity indicator
+			name := strings.TrimSpace(re.ReplaceAllString(item, ""))
+			requiredItems = append(requiredItems, Item{Name: name, Count: count})
+		} else {
+			// No quantity indicator, assume count is 1
+			requiredItems = append(requiredItems, Item{Name: item, Count: 1})
+		}
+	}
+
+	return requiredItems
+}
+
+// extractHighQualityResults extracts items and their counts from the ingredients string.
+func extractHighQualityResults(ingredientsString string) []Item {
 	var items []Item
 	re := regexp.MustCompile(`HQ\d+: ([^\n]+?)(?: x(\d+))?`)
+	fmt.Printf("trying to match on: %s", ingredientsString)
 	matches := re.FindAllStringSubmatch(ingredientsString, -1)
+	fmt.Printf("Matches are: %s", matches)
+
 	for _, match := range matches {
+		fmt.Printf("match: %s\n", match)
 		name := strings.TrimSpace(match[1])
 		var count int
 		if len(match) == 3 && match[2] != "" {
@@ -78,11 +174,51 @@ func extractItemsFromIngredients(ingredientsString string) []Item {
 	return items
 }
 
-// Recipe represents a crafting recipe.
-type Recipe struct {
-	CraftingType string `json:"crafting_type"`
-	Crystal      string `json:"crystal"`
-	// ... (other fields remain unchanged)
+// determineCraftName determines the name of the craft based on the result and required items.
+func determineCraftName(skillLevels map[string]int, requiredItems []Item, result string) string {
+
+	craftTypes := sortSkillsHighestFirst(skillLevels)
+
+	// Iterate over craft types in descending order
+	var skills []string
+	for _, craftType := range craftTypes {
+		level := skillLevels[craftType]
+		skills = append(skills, fmt.Sprintf("%s-%d", craftType, level))
+		fmt.Printf("%s-%d\n", craftType, level)
+	}
+
+	var items []string
+	for _, item := range requiredItems {
+		items = append(items, fmt.Sprintf("%d-%s", item.Count, item.Name))
+	}
+
+	// Combine the result and items to form the craft name
+	craftName := fmt.Sprintf("%s-%s-From-%s", strings.Join(skills, "-"), result, strings.Join(items, ", "))
+	return craftName
+}
+
+func sortSkillsHighestFirst(skillLevels map[string]int) []string {
+	// Create a slice of craft types
+	var craftTypes []string
+	for craftType := range skillLevels {
+		craftTypes = append(craftTypes, craftType)
+	}
+
+	// Sort the craft types based on values in descending order
+	sort.Slice(craftTypes, func(i, j int) bool {
+		return skillLevels[craftTypes[i]] > skillLevels[craftTypes[j]]
+	})
+	return craftTypes
+}
+
+// CraftingRecipe represents the data extracted for each craft.
+type CraftingRecipe struct {
+	Crystal       string         `json:"Crystal"`
+	RequiredItems []Item         `json:"RequiredItems"`
+	SkillLevels   map[string]int `json:"SkillLevels"`
+	Result        string         `json:"Result"`
+	Name          string         `json:"Name"`
+	MainCraft     string         `json:"MainCraft"`
 }
 
 // CrystalData represents the data extracted for each crystal.
@@ -94,4 +230,30 @@ type CrystalData struct {
 type Item struct {
 	Name  string `json:"Name"`
 	Count int    `json:"Count"`
+}
+
+// CraftData represents a crafting recipe.
+type CraftData struct {
+	Text                       string `json:"Text"`
+	RecipeName                 string `json:"recipe_name"`
+	GuildRecipesWoodworkingURL string `json:"Guild_Recipes_Woodworking_URL"`
+	RecipeItem                 string `json:"recipe_item"`
+	LevelCap                   string `json:"level_cap"`
+	OtherRequirements          string `json:"other_requirements"`
+	Crystal                    string `json:"crystal"`
+	SynthOrDesynth             string `json:"synth_or_desynth"`
+	Ingredients                string `json:"ingredients"`
+	Something                  string `json:"something"`
+	Ingredient1                string `json:"ingredient_1"`
+	Ingredient2Link            string `json:"ingredient_2_link"`
+	Ingredient2                string `json:"ingredient_2"`
+	Ingredient3Link            string `json:"ingredient_3_link"`
+	Ingredient3                string `json:"ingredient_3"`
+	Ingredient4Link            string `json:"ingredient_4_link"`
+	Ingredient4                string `json:"ingredient_4"`
+	HQResults                  string `json:"hq_results"`
+	Field15                    string `json:"Field15"`
+	HQ1                        string `json:"hq1"`
+	HQ2                        string `json:"hq2"`
+	HQ3                        string `json:"hq3"`
 }

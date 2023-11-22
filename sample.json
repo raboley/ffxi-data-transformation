@@ -1,0 +1,16 @@
+[
+  {
+    "Crystal": "Wind Crystal",
+    "RequiredItems": [
+      {
+        "Name": "Ash Log",
+        "Count": 1
+      }
+    ],
+    "SkillLevels": {
+      "Woodworking": 8
+    },
+    "Result": "Ash Lumber",
+    "Name": "Ash Lumber-From-1Ash Log"
+  }
+]

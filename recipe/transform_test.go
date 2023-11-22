@@ -25,6 +25,26 @@ func TestExtractCraftType(t *testing.T) {
 	}
 }
 
+func TestExtractSkillLevels(t *testing.T) {
+	tests := []struct {
+		levelCap    string
+		craftType   string
+		expectedMap map[string]int
+	}{
+		{"10", "Woodworking", map[string]int{"Woodworking": 10}},
+		{"15", "Smithing", map[string]int{"Smithing": 15}},
+		{"5", "Alchemy", map[string]int{"Alchemy": 5}},
+		// Add more test cases as needed
+	}
+
+	for _, test := range tests {
+		result := extractSkillLevels(test.levelCap, test.craftType)
+		if !reflect.DeepEqual(result, test.expectedMap) {
+			t.Errorf("For CraftType %s and LevelCap %s, expected %v, but got %v", test.craftType, test.levelCap, test.expectedMap, result)
+		}
+	}
+}
+
 // TestOtherRequirementSkillLevels is a unit test for otherRequirementSkillLevels.
 func TestOtherRequirementSkillLevels(t *testing.T) {
 	tests := []struct {
@@ -45,7 +65,7 @@ func TestOtherRequirementSkillLevels(t *testing.T) {
 	}
 }
 
-func TestExtractItemsFromIngredients(t *testing.T) {
+func TestExtractHighQualityResults(t *testing.T) {
 	tests := []struct {
 		ingredientsString string
 		expectedItems     []Item
@@ -74,14 +94,84 @@ func TestExtractItemsFromIngredients(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		result := extractItemsFromIngredients(test.ingredientsString)
+		result := extractHighQualityResults(test.ingredientsString)
 		if !reflect.DeepEqual(result, test.expectedItems) {
 			t.Errorf("For ingredients string %s, expected %v, but got %v", test.ingredientsString, test.expectedItems, result)
 		}
 	}
 }
 
-// TestExtractItemsFromIngredients is a unit test for extractItemsFromIngredients.
+func TestExtractRequiredItems(t *testing.T) {
+	tests := []struct {
+		inputString  string
+		expectedList []Item
+	}{
+		{"Wijnruit x3, San d'Orian Grape x3, Distilled Water, Triturator",
+			[]Item{
+				{Name: "Wijnruit", Count: 3},
+				{Name: "San d'Orian Grape", Count: 3},
+				{Name: "Distilled Water", Count: 1},
+				{Name: "Triturator", Count: 1},
+			},
+		},
+		{"Iron Ingot x2, Fire Crystal", []Item{
+			{Name: "Iron Ingot", Count: 2},
+			{Name: "Fire Crystal", Count: 1},
+		}},
+	}
+
+	for _, test := range tests {
+		result := extractRequiredItems(test.inputString)
+		if !reflect.DeepEqual(result, test.expectedList) {
+			t.Errorf("For input %s, expected %v, but got %v", test.inputString, test.expectedList, result)
+		}
+	}
+}
+
+func TestDetermineCraftName(t *testing.T) {
+	tests := []struct {
+		recipe       CraftingRecipe
+		expectedName string
+	}{
+		{
+			CraftingRecipe{
+				Result: "Ash Lumber",
+				RequiredItems: []Item{
+					{Name: "Ash Log", Count: 1},
+				},
+				SkillLevels: map[string]int{
+					"Woodworking": 7,
+				},
+			},
+			"Woodworking-7-Ash Lumber-From-1-Ash Log",
+		},
+		{
+			CraftingRecipe{
+				Result: "Copper Ingot",
+				RequiredItems: []Item{
+					{Name: "Copper Ore", Count: 2},
+					{Name: "Fire Crystal", Count: 1},
+				},
+				SkillLevels: map[string]int{
+					"Goldsmithing": 2,
+					"Smithing":     14,
+				},
+				MainCraft: "Goldsmithing",
+			},
+			"Smithing-14-Goldsmithing-2-Copper Ingot-From-2-Copper Ore, 1-Fire Crystal",
+		},
+		// Add more test cases as needed
+	}
+
+	for _, test := range tests {
+		result := determineCraftName(test.recipe.SkillLevels, test.recipe.RequiredItems, test.recipe.Result)
+		if result != test.expectedName {
+			t.Errorf("For recipe %+v, expected %s, but got %s", test.recipe, test.expectedName, result)
+		}
+	}
+}
+
+// TestExtractItemsFromIngredients is a unit test for extractHighQualityResults.
 //func TestExtractItemsFromIngredients(t *testing.T) {
 //	tests := []struct {
 //		ingredientsString string
@@ -94,7 +184,7 @@ func TestExtractItemsFromIngredients(t *testing.T) {
 //	}
 //
 //	for _, test := range tests {
-//		result := extractItemsFromIngredients(test.ingredientsString)
+//		result := extractHighQualityResults(test.ingredientsString)
 //		if !reflect.DeepEqual(result, test.expectedItems) {
 //			t.Errorf("For ingredients string %s, expected %v, but got %v", test.ingredientsString, test.expectedItems, result)
 //		}
