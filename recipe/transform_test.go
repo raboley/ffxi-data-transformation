@@ -1,6 +1,7 @@
 package recipe
 
 import (
+	"fmt"
 	"reflect"
 	"testing"
 )
@@ -68,33 +69,33 @@ func TestOtherRequirementSkillLevels(t *testing.T) {
 func TestExtractHighQualityResults(t *testing.T) {
 	tests := []struct {
 		ingredientsString string
-		expectedItems     []Item
+		expectedItems     []ResultsIncludingHighQuality
 	}{
 		{
 			"HQ1: Antidote x6\nHQ2: Antidote x9\nHQ3: Antidote x12",
-			[]Item{
-				{Name: "Antidote", Count: 6},
-				{Name: "Antidote", Count: 9},
-				{Name: "Antidote", Count: 12},
+			[]ResultsIncludingHighQuality{
+				{Name: "Antidote", Count: 6, HighQualityLevel: 1},
+				{Name: "Antidote", Count: 9, HighQualityLevel: 2},
+				{Name: "Antidote", Count: 12, HighQualityLevel: 3},
 			},
 		},
 		{
 			"HQ1: Maple Shield +1\n",
-			[]Item{
-				{Name: "Maple Shield +1", Count: 1},
+			[]ResultsIncludingHighQuality{
+				{Name: "Maple Shield +1", Count: 1, HighQualityLevel: 1},
 			},
 		},
 		{
 			"HQ1: Angler's Hose\n",
-			[]Item{
-				{Name: "Angler's Hose", Count: 1},
+			[]ResultsIncludingHighQuality{
+				{Name: "Angler's Hose", Count: 1, HighQualityLevel: 1},
 			},
 		},
 		// Add more test cases as needed
 	}
 
 	for _, test := range tests {
-		result := extractHighQualityResults(test.ingredientsString)
+		result, _ := extractHighQualityResults(test.ingredientsString)
 		if !reflect.DeepEqual(result, test.expectedItems) {
 			t.Errorf("For ingredients string %s, expected %v, but got %v", test.ingredientsString, test.expectedItems, result)
 		}
@@ -168,6 +169,27 @@ func TestDetermineCraftName(t *testing.T) {
 		if result != test.expectedName {
 			t.Errorf("For recipe %+v, expected %s, but got %s", test.recipe, test.expectedName, result)
 		}
+	}
+}
+
+func TestExtractRecipeQuantity(t *testing.T) {
+	testCases := []struct {
+		itemName string
+		expected int
+	}{
+		{"Antidote x3", 3},
+		{"Maple Shield +1", 1},
+		{"Elixir", 1}, // No quantity specified
+	}
+
+	for _, testCase := range testCases {
+		t.Run(fmt.Sprintf("Item: %s", testCase.itemName), func(t *testing.T) {
+			result := extractRecipeQuantity(testCase.itemName)
+
+			if result != testCase.expected {
+				t.Errorf("Expected quantity %d, but got %d", testCase.expected, result)
+			}
+		})
 	}
 }
 

@@ -33,15 +33,24 @@ func TransformRecipes(inputJSON string) (string, error) {
 
 		items := extractRequiredItems(recipe.SynthOrDesynth)
 		name := determineCraftName(combinedSkillLevels, items, recipe.RecipeName)
+		recipeQuantity := extractRecipeQuantity(recipe.RecipeName)
+		standardResult := ResultsIncludingHighQuality{
+			Name:             recipe.RecipeItem,
+			Count:            recipeQuantity,
+			HighQualityLevel: 0,
+		}
+		highQualityResults, _ := extractHighQualityResults(recipe.Ingredients)
+		allResults := append(highQualityResults, standardResult)
 
 		// Create CraftingRecipe object
 		craftData = append(craftData, CraftingRecipe{
-			Result:        recipe.RecipeName,
-			Crystal:       recipe.Crystal,
-			MainCraft:     realMainCraftType,
-			SkillLevels:   combinedSkillLevels,
-			RequiredItems: items,
-			Name:          name,
+			Result:             recipe.RecipeItem,
+			Crystal:            recipe.Crystal,
+			MainCraft:          realMainCraftType,
+			SkillLevels:        combinedSkillLevels,
+			RequiredItems:      items,
+			Name:               name,
+			AllPossibleResults: allResults,
 		})
 	}
 
@@ -52,6 +61,24 @@ func TransformRecipes(inputJSON string) (string, error) {
 	}
 
 	return string(outputData), nil
+}
+
+func extractRecipeQuantity(itemName string) int {
+	re := regexp.MustCompile(` x(\d+)$`)
+	match := re.FindStringSubmatch(itemName)
+
+	if len(match) > 1 {
+		quantity, _ := strconv.Atoi(match[1])
+		return quantity
+	}
+
+	return 1
+}
+
+type ResultsIncludingHighQuality struct {
+	Name             string `json:"Name"`
+	Count            int    `json:"Count"`
+	HighQualityLevel int    `json:"HighQualityLevel"`
 }
 
 func extractSkillLevels(levelCap string, craftType string) map[string]int {
@@ -152,26 +179,39 @@ func extractRequiredItems(itemsString string) []Item {
 	return requiredItems
 }
 
-// extractHighQualityResults extracts items and their counts from the ingredients string.
-func extractHighQualityResults(ingredientsString string) []Item {
-	var items []Item
-	re := regexp.MustCompile(`HQ\d+: ([^\n]+?)(?: x(\d+))?`)
-	fmt.Printf("trying to match on: %s", ingredientsString)
-	matches := re.FindAllStringSubmatch(ingredientsString, -1)
-	fmt.Printf("Matches are: %s", matches)
+func extractHighQualityResults(ingredients string) ([]ResultsIncludingHighQuality, error) {
+	var results []ResultsIncludingHighQuality
 
-	for _, match := range matches {
-		fmt.Printf("match: %s\n", match)
-		name := strings.TrimSpace(match[1])
-		var count int
-		if len(match) == 3 && match[2] != "" {
-			count, _ = strconv.Atoi(match[2])
-		} else {
-			count = 1
+	itemLines := strings.Split(ingredients, "\n")
+
+	for _, line := range itemLines {
+		fmt.Printf("line: %s\n", line)
+		// Use the updated regular expression to capture item details
+		re := regexp.MustCompile(`HQ(\d+): (.*?)(?: x(\d+))?$`)
+
+		match := re.FindStringSubmatch(line)
+		fmt.Printf("match: %v\n", strings.Join(match, ", "))
+		if len(match) > 0 {
+			hqLevel, _ := strconv.Atoi(match[1])
+			itemName := match[2]
+			quantity := 1
+
+			if match[3] != "" {
+				quantity, _ = strconv.Atoi(match[3])
+			}
+
+			fmt.Printf("itemName: %s\n", itemName)
+			fmt.Printf("itemQuantity: %s\n", match[3])
+
+			results = append(results, ResultsIncludingHighQuality{
+				Name:             itemName,
+				Count:            quantity,
+				HighQualityLevel: hqLevel,
+			})
 		}
-		items = append(items, Item{Name: name, Count: count})
 	}
-	return items
+
+	return results, nil
 }
 
 // determineCraftName determines the name of the craft based on the result and required items.
@@ -213,12 +253,13 @@ func sortSkillsHighestFirst(skillLevels map[string]int) []string {
 
 // CraftingRecipe represents the data extracted for each craft.
 type CraftingRecipe struct {
-	Crystal       string         `json:"Crystal"`
-	RequiredItems []Item         `json:"RequiredItems"`
-	SkillLevels   map[string]int `json:"SkillLevels"`
-	Result        string         `json:"Result"`
-	Name          string         `json:"Name"`
-	MainCraft     string         `json:"MainCraft"`
+	Crystal            string                        `json:"Crystal"`
+	RequiredItems      []Item                        `json:"RequiredItems"`
+	SkillLevels        map[string]int                `json:"SkillLevels"`
+	Result             string                        `json:"Result"`
+	Name               string                        `json:"Name"`
+	MainCraft          string                        `json:"MainCraft"`
+	AllPossibleResults []ResultsIncludingHighQuality `json:"AllPossibleResults"`
 }
 
 // CrystalData represents the data extracted for each crystal.
