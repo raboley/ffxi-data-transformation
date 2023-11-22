@@ -193,6 +193,28 @@ func TestExtractRecipeQuantity(t *testing.T) {
 	}
 }
 
+func TestExtractToolRequirement(t *testing.T) {
+	testCases := []struct {
+		text     string
+		expected string
+	}{
+		{"Tool: Leather Ensorcellment", "Leather Ensorcellment"},
+		{"Tool: Alchemic Ensorcellment", "Alchemic Ensorcellment"},
+		{"Tool: Smithing Implements", "Smithing Implements"},
+		{"Other Requirement", ""}, // No tool requirement
+	}
+
+	for _, testCase := range testCases {
+		t.Run(fmt.Sprintf("Text: %s", testCase.text), func(t *testing.T) {
+			result := extractToolRequirement(testCase.text)
+
+			if result != testCase.expected {
+				t.Errorf("Expected tool requirement %s, but got %s", testCase.expected, result)
+			}
+		})
+	}
+}
+
 // TestExtractItemsFromIngredients is a unit test for extractHighQualityResults.
 //func TestExtractItemsFromIngredients(t *testing.T) {
 //	tests := []struct {

@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	inputJSON, err := os.ReadFile("input.json")
+	inputJSON, err := os.ReadFile("/Users/russellboley/Documents/all_crafting.json")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -18,7 +18,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	err = os.WriteFile("output.json", []byte(outputJSON), 0644)
+	err = os.WriteFile("all_craft.json", []byte(outputJSON), 0644)
 	if err != nil {
 		log.Fatal(err)
 	}

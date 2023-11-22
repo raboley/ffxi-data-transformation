@@ -41,6 +41,7 @@ func TransformRecipes(inputJSON string) (string, error) {
 		}
 		highQualityResults, _ := extractHighQualityResults(recipe.Ingredients)
 		allResults := append(highQualityResults, standardResult)
+		requiredTools := extractToolRequirement(recipe.OtherRequirements)
 
 		// Create CraftingRecipe object
 		craftData = append(craftData, CraftingRecipe{
@@ -51,6 +52,7 @@ func TransformRecipes(inputJSON string) (string, error) {
 			RequiredItems:      items,
 			Name:               name,
 			AllPossibleResults: allResults,
+			RequiredTools:      requiredTools,
 		})
 	}
 
@@ -251,6 +253,17 @@ func sortSkillsHighestFirst(skillLevels map[string]int) []string {
 	return craftTypes
 }
 
+// extractToolRequirement extracts the tool requirement from the given text.
+// It returns the tool name or an empty string if no tool requirement is found.
+func extractToolRequirement(text string) string {
+	re := regexp.MustCompile(`Tool: (.*)`)
+	match := re.FindStringSubmatch(text)
+	if len(match) > 1 {
+		return strings.TrimSpace(match[1])
+	}
+	return ""
+}
+
 // CraftingRecipe represents the data extracted for each craft.
 type CraftingRecipe struct {
 	Crystal            string                        `json:"Crystal"`
@@ -260,6 +273,7 @@ type CraftingRecipe struct {
 	Name               string                        `json:"Name"`
 	MainCraft          string                        `json:"MainCraft"`
 	AllPossibleResults []ResultsIncludingHighQuality `json:"AllPossibleResults"`
+	RequiredTools      string                        `json:"RequiredTools"`
 }
 
 // CrystalData represents the data extracted for each crystal.
