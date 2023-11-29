@@ -1,0 +1,163 @@
+[
+  {
+    'Name': 'Snipper',
+    'LevelRange': null,
+    'ZoneName': 'Valkurm_Dunes',
+    'ItemDrops': [
+      'You find a chunk of rock salt on the Snipper.',
+      'chunk of rock salt',
+      'crab apron'
+    ]
+  },
+  {
+    'Name': 'Sand Bats',
+    'LevelRange': {
+      'Min': 13,
+      'Max': 13
+    },
+    'ZoneName': 'Valkurm_Dunes',
+    'ItemDrops': [
+      'sand bat fang',
+      'wind crystal',
+      'bat wing'
+    ]
+  },
+  {
+    'Name': 'Goblin Ambusher',
+    'LevelRange': {
+      'Min': 17,
+      'Max': 20
+    },
+    'ZoneName': 'Valkurm_Dunes',
+    'ItemDrops': [
+      'fire crystal',
+      'Goblin mask',
+      'suit of Goblin armor',
+      'beastmen\'s seal',
+      'block of animal glue',
+      'beastcoin'
+    ]
+  },
+  {
+    'Name': 'Goblin Tinkerer',
+    'LevelRange': {
+      'Min': 18,
+      'Max': 20
+    },
+    'ZoneName': 'Valkurm_Dunes',
+    'ItemDrops': [
+      'lightning crystal',
+      'beastmen\'s seal',
+      'Goblin helm',
+      'suit of Goblin mail'
+    ]
+  },
+  {
+    'Name': 'Goblin Mugger',
+    'LevelRange': {
+      'Min': 22,
+      'Max': 24
+    },
+    'ZoneName': 'Valkurm_Dunes',
+    'ItemDrops': [
+      'fire crystal',
+      'suit of Goblin armor',
+      'beastmen\'s seal',
+      'Goblin mask',
+      'silver beastcoin'
+    ]
+  },
+  {
+    'Name': 'Goblin Gambler',
+    'LevelRange': {
+      'Min': 22,
+      'Max': 24
+    },
+    'ZoneName': 'Valkurm_Dunes',
+    'ItemDrops': [
+      'beastmen\'s seal',
+      'fire crystal',
+      'Goblin mask',
+      'fire cluster',
+      'suit of Goblin armor'
+    ]
+  },
+  {
+    'Name': 'Goblin Butcher',
+    'LevelRange': {
+      'Min': 17,
+      'Max': 20
+    },
+    'ZoneName': 'Valkurm_Dunes',
+    'ItemDrops': [
+      'beastmen\'s seal',
+      'lightning crystal',
+      'Goblin helm'
+    ]
+  },
+  {
+    'Name': 'Goblin Leecher',
+    'LevelRange': {
+      'Min': 22,
+      'Max': 24
+    },
+    'ZoneName': 'Valkurm_Dunes',
+    'ItemDrops': [
+      'scroll of Protectra',
+      'beastmen\'s seal',
+      'fire crystal',
+      'scroll of Barsleep',
+      'Goblin mask',
+      'suit of Goblin armor',
+      'scroll of Paralyze',
+      'scroll of Barpoison',
+      'scroll of Invisible',
+      'silver beastcoin',
+      'scroll of Sneak',
+      'scroll of Silence'
+    ]
+  },
+  {
+    'Name': 'Sand Hare',
+    'LevelRange': null,
+    'ZoneName': 'Valkurm_Dunes',
+    'ItemDrops': [
+      'You find an earth crystal on the Sand Hare.',
+      'earth crystal',
+      'rabbit hide',
+      'slice of hare meat',
+      'beastmen\'s seal'
+    ]
+  },
+  {
+    'Name': 'Brutal Sheep',
+    'LevelRange': {
+      'Min': 23,
+      'Max': 23
+    },
+    'ZoneName': 'Valkurm_Dunes',
+    'ItemDrops': [
+      'You find a sheepskin on the Brutal Sheep.',
+      'sheepskin',
+      'slice of giant sheep meat',
+      'earth crystal',
+      'sheep tooth',
+      'earth cluster',
+      'beastmen\'s seal'
+    ]
+  },
+  {
+    'Name': 'Damselfly',
+    'LevelRange': {
+      'Min': 20,
+      'Max': 22
+    },
+    'ZoneName': 'Valkurm_Dunes',
+    'ItemDrops': [
+      'damselfly worm',
+      'wind crystal',
+      'beastmen\'s seal',
+      'insect wing'
+    ]
+  }
+]

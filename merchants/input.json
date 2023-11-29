@@ -1,0 +1,1022 @@
+[
+  {
+    "merchant": "Brunhilde",
+    "type": "Standard Merchant",
+    "goodsPrice": "Bronze Cap 154-174 gil \nFaceguard 1334-1508 gil \nBronze Harness 235-266 gil \nScale Mail 2051-2319 gil \nBronze Mittens 128-145 gil \nScale Finger Gauntlets 1094-1237 gil \nBrass Mask 11776-13312 gil Bastok - 2nd place \nSallet 29311-33134 gil Bastok - 2nd place \nBrass Scale Mail 17928-20267 gil Bastok - 2nd place \nBrass Finger Gauntlets 9479-10716 gil Bastok - 2nd place \nMythril Sallet 52289-59109 gil Bastok Citizen - 1st place\nBreastplate 45208-51105 gil Bastok Citizen - 1st place \nGauntlets 23846-26956 gil Bastok Citizen - 1st place",
+    "location": "Bastok Markets (F-10)\n\nMerchant for Brunhilde the Armorour"
+  },
+  {
+    "merchant": "Carmelide",
+    "type": "Standard Merchant",
+    "goodsPrice": "Copper Ring 69-79 gil \nTourmaline 1713-1937 gil Bastok - 2nd place \nSardonyx 1713-1937 gil Bastok - 2nd place \nAmethyst 1713-1937 gil Bastok - 2nd place \nAmber 1713-1937 gil Bastok - 2nd place \nLapis Lazuli 1713-1937 gil Bastok - 2nd place\nClear Topaz 1713-1937 gil Bastok - 2nd place \nOnyx 1713-1937 gil Bastok - 2nd place \nLight Opal 1713-1937 gil Bastok - 2nd place",
+    "location": "Bastok Markets (I-8)\n\nMerchant for Carmelide's Jewelry"
+  },
+  {
+    "merchant": "Charging Chocobo",
+    "type": "Standard Merchant",
+    "goodsPrice": "Bronze Subligar 191-216 gil \nScale Cuisses 1646-1861 gil \nBronze Leggings 117-133 gil \nScale Greaves 998-1128 gil \nBrass Cuisses 14131-15974 gil Bastok - 2nd place \nCuisses 34776-39312 gil Bastok - 2nd place\nBrass Greaves 8419-9518 gil Bastok - 2nd place \nPlate Leggings 21859-24710 gil Bastok - 2nd place \nGorget 16891-19094 gil Bastok - 2nd place \nMythril Cuisses 58738-66399 gil Bastok Citizen - 1st place \nMythril Leggings 36735-41527 gil",
+    "location": "Bastok Markets (F-10)\n\nMerchant for Brunhilde the Armorour; located in the back of the store"
+  },
+  {
+    "merchant": "Ciqala",
+    "type": "Standard Merchant",
+    "goodsPrice": "Bronze Knuckles 224-253 gil \nBronze Axe 290-328 gil \nBronze Hammer 312-353 gil \nMaple Wand 47-54 gil \nAsh Staff 58-66 gil \nBrass Knuckles 828-936 gil Bastok - 2nd place\nBrass Axe 1435-1622 gil Bastok - 2nd place \nButterfly Axe 618-698 gil Bastok - 2nd place \nBrass Hammer 2129-2407 gil Bastok - 2nd place \nMetal Knuckles 4818-5447 gil Bastok Citizen - 1st place \nBattleaxe 11285-12757 gil Bastok Citizen - 1st place\nGreataxe 4186-4732 gil Bastok Citizen - 1st place \nWarhammer 6033-6820 gil Bastok Citizen - 1st place",
+    "location": "Bastok Markets (F-10)\n\nMerchant for Dragon's Claws Weaponry Store; located in the back of the store"
+  },
+  {
+    "merchant": "Harmodios",
+    "type": "Standard Merchant",
+    "goodsPrice": "Gemshorn 4747-5366 gil \nFlute 44-49 gil \nScroll of Bewitching Etude 55200-62400 gil \nCornette 224-253 gil Bastok - 2nd place \nMaple Harp 44-49 gil Bastok - 2nd place \nScroll of Vital Etude 70656-79872 gil Bastok - 2nd place\nScroll of Swift Etude 67712-76544 gil Bastok - 2nd place \nScroll of Sage Etude 64768-73216 gil Bastok - 2nd place \nScroll of Logical Etude 57960-65520 gil Bastok - 2nd place \nScroll of Herculean Etude 81328-91936 gil Bastok - 2nd place \nScroll of Uncanny Etude 78200-88400 gil Bastok - 2nd place\nPiccolo 1012-1144 gil Bastok Citizen - 1st place",
+    "location": "Bastok Markets (K-10)\n\nMerchant for Harmodios's Music Shop"
+  },
+  {
+    "merchant": "Hortense",
+    "type": "Standard Merchant",
+    "goodsPrice": "Scroll of Foe Requiem 66-74 gil \nScroll of Foe Requiem II 450-509 gil \nScroll of Foe Requiem III 4048-4576 gil \nScroll of Foe Requiem IV 7065-7987 gil \nScroll of Army's Paeon 38-43 gil \nScroll of Army's Paeon II 328-371 gil \nScroll of Army's Paeon III 3312-3744 gil \nScroll of Army's Paeon IV 6072-6864 gil \nScroll of Valor Minuet 22-24 gil \nScroll of Valor Minuet II 1126-1272 gil \nScroll of Valor Minuet III 5667-6406 gil",
+    "location": "Bastok Markets (K-10)\n\nMerchant for Harmodios's Music Shop"
+  },
+  {
+    "merchant": "Mjoll",
+    "type": "Standard Merchant",
+    "goodsPrice": "Iron Arrow 7-10 gil \nScroll of Dark Threnody 199-225 gil \nScroll of Ice Threnody 1000-1131 gil \nWooden Arrow 3-4 gil Bastok - 2nd place \nSilver Arrow 16-18 gil Bastok Citizen - 1st place",
+    "location": "Bastok Markets (E-11)\n\nMerchant for Mjoll's General Goods; located in the back of the store"
+  },
+  {
+    "merchant": "Olwyn",
+    "type": "Standard Merchant",
+    "goodsPrice": "Eye Drops 2387-2698 gil \nAntidote 290-328 gil \nEcho Drops 736-832 gil Bastok - 2nd place \nPotion 837-946 gil Bastok - 2nd place \nEther 4445-5025 gil Bastok Citizen - 1st place",
+    "location": "Bastok Markets (E-11)\n\nMerchant for Mjoll's General Goods"
+  },
+  {
+    "merchant": "Peritrage",
+    "type": "Standard Merchant",
+    "goodsPrice": "Light Crossbow 165-187 gil \nCrossbow Bolt 5-6 gil \nCrossbow 2166-2449 gil Bastok - 2nd place \nMythril Bolt 22-24 gil Bastok - 2nd place \nZamburak 14158-16005 gil Bastok Citizen - 1st place \nTathlum 294-332 gil Bastok Citizen - 1st place",
+    "location": "Bastok Markets (F-10)\n\nMerchant for Dragon's Claws Weaponry Store; located in the back of the store"
+  },
+  {
+    "merchant": "Raghd",
+    "type": "Standard Merchant",
+    "goodsPrice": "Copper Ring 69-79 gil \nBrass Ring 184-208 gil Bastok - 2nd place \nSilver Ring 1150-1300 gil Bastok Citizen - 1st place \nSilver Earring 1150-1300 gil Bastok Citizen - 1st place",
+    "location": "Bastok Markets (J-8)\n\nMerchant for Carmelide's Jewelry"
+  },
+  {
+    "merchant": "Sororo",
+    "type": "Standard Merchant",
+    "goodsPrice": "Scroll of Cure 62-70 gil \nScroll of Curaga 1393-1575 gil \nScroll of Poisona 184-208 gil \nScroll of Paralyna 331-374 gil \nScroll of Blindna 1012-1144 gil \nScroll of Dia 84-95 gil \nScroll of Protect 224-253 gil \nScroll of Shell 1619-1830 gil \nScroll of Aquaveil 368-416 gil \nScroll of Cure II 598-676 gil Bastok - 2nd place \nScroll of Banish 143-162 gil Bastok - 2nd place\nScroll of Banishga 1191-1346 gil Bastok - 2nd place \nScroll of Blink 2143-2423 gil Bastok - 2nd place \nScroll of Diaga 1191-1346 gil Bastok Citizen - 1st place \nScroll of Stoneskin 7181-8118 gil Bastok Citizen - 1st place \nScroll of Slow 855-967 gil Bastok Citizen - 1st place",
+    "location": "Bastok Markets (H-5)\n\nMerchant for Sororo - Scribe and Notary"
+  },
+  {
+    "merchant": "Teerth",
+    "type": "Guild Merchant",
+    "goodsPrice": "Copper Ore\nZinc Ore\nSilver Ore\nMythril Ore\nCopper Ingot\nBrass Scales\nMythril Chain\nRed Rock\nBlue Rock\nYellow Rock\nGreen Rock\nTranslucent Rock\nPurple Rock\nBlack Rock\nWhite Rock\nLapis Lazuli\nLight Opal\nOnyx\nAmethyst\nTourmaline\nSardonyx\nClear Topaz\nAmber\nJadeite\nFluorite\nChrysoberyl\nAquamarine\nZircon\nEmerald\nRuby\nCopper Ring\nCopper Hairpin\nBrass Hairpin\nBrass Knuckles\nBrass Baghnakhs\nBrass Hammer\nCirclet\nBrass Cap\nBrass Harness\nBrass Mittens\nBrass Subligar\nBrass Leggings\nTufa\nSilver Hairpin\nSilver Chain",
+    "location": "Bastok Markets (H-8)\n\nMerchant for the Goldsmiths' Guild (Open 8-23, closed Iceday)"
+  },
+  {
+    "merchant": "Visala",
+    "type": "Guild Merchant",
+    "goodsPrice": "Copper Ore\nZinc Ore\nSilver Ore\nMythril Ore\nCopper Ingot\nBrass Scales\nMythril Chain\nRed Rock\nBlue Rock\nYellow Rock\nGreen Rock\nTranslucent Rock\nPurple Rock\nBlack Rock\nWhite Rock\nLapis Lazuli\nLight Opal\nOnyx\nAmethyst\nTourmaline\nSardonyx\nClear Topaz\nAmber\nJadeite\nFluorite\nChrysoberyl\nAquamarine\nZircon\nEmerald\nRuby\nCopper Ring\nCopper Hairpin\nBrass Hairpin\nSilver Hairpin\nBrass Knuckles\nBrass Baghnakhs\nBrass Hammer\nCirclet\nBrass Cap\nBrass Harness\nBrass Mittens\nBrass Subligar\nBrass Leggings\nTufa\nSilver Chain",
+    "location": "Bastok Markets (H-8)\n\nMerchant for the Goldsmiths' Guild (Open 8-23, closed Iceday)"
+  },
+  {
+    "merchant": "Zaira",
+    "type": "Standard Merchant",
+    "goodsPrice": "Scroll of Stone 62-70 gil \nScroll of Water 143-162 gil \nScroll of Aero 331-374 gil \nScroll of Fire 855-967 gil \nScroll of Blizzard 1619-1830 gil \nScroll of Thunder 3334-3768 gil \nScroll of Burn 4747-5366 gil \nScroll of Frost 3770-4261 gil \nScroll of Choke 2300-2600 gil \nScroll of Rasp 1867-2111 gil \nScroll of Shock 1393-1575 gil \nScroll of Drown 6508-7356 gil \nScroll of Poison 84-95 gil Bastok - 2nd place \nScroll of Bio 368-416 gil Bastok - 2nd place \nScroll of Sleep 2300-2600 gil Bastok - 2nd place \nScroll of Blind 114-128 gil Bastok Citizen - 1st place",
+    "location": "Bastok Markets (H-5)\n\nMerchant for Sororo - Scribe and Notary"
+  },
+  {
+    "merchant": "Zhikkom",
+    "type": "Standard Merchant",
+    "goodsPrice": "Bronze Knife 150-170 gil \nCat Baghnakhs 106-225 gil \nBronze Sword 246-278 gil \nDegen 9406-10632 gil \nSapara 713-807 gil \nKnife 2231-2522 gil Bastok - 2nd place\nIron Sword 7286-8236 gil Bastok - 2nd place \nScimitar 4163-4706 gil Bastok - 2nd place \nKukri 5713-6458 gil Bastok Citizen - 1st place \nMythril Sword 31648-35776 gil Bastok Citizen - 1st place \nBroadsword 21535-24344 gil Bastok Citizen - 1st place\nTuck 11845-13391 gil Bastok Citizen - 1st place \nFalchion 62560-70720 gil Bastok Citizen - 1st place",
+    "location": "Bastok Markets (F-10)\n\nMerchant for Dragon's Claws Weaponry Store"
+  },
+  {
+    "merchant": "Boytz",
+    "type": "Standard Merchant",
+    "goodsPrice": "Brass Flowerpot 920-1020 gil \nPickaxe 180-208 gil \nEye Drops 2387-2698 gil \nAntidote 290-328 gil \nIron Arrow 7-10 gil \nCrossbow Bolt 5-6 gil \nThief's Tools 3643-4118 gil Occasionally Available \nLiving Key 5520-6240 gil Occasionally Available \nEcho Drops 736-832 gil Bastok - 2nd place \nPotion 837-946 gil Bastok - 2nd place \nWooden Arrow 3-4 gil Bastok - 2nd place\nEther 4445-5025 gil Bastok Citizen - 1st place",
+    "location": "Bastok Mines (H-7)\n\nMerchant for Boytz's Knickknacks; located in the back of the store"
+  },
+  {
+    "merchant": "Deegis",
+    "type": "Standard Merchant",
+    "goodsPrice": "Bronze Cap 154-174 gil \nBronze Harness 235-266 gil \nChainmail 14572-16473 gil \nBronze Mittens 128-145 gil \nChain Mittens 7783-8798 gil \nBrass Cap 1504-1700 gil Bastok - 2nd place\nLeather Bandana 404-457 gil Bastok - 2nd place \nBrass Harness 2286-2584 gil Bastok - 2nd place \nLeather Vest 618-698 gil Bastok - 2nd place \nBrass Mittens 1255-1419 gil Bastok - 2nd place \nLeather Gloves 331-374 gil Bastok - 2nd place\nPadded Cap 19077-21216 gil Bastok Citizen - 1st place \nIron Mask 9439-10670 gil Bastok Citizen - 1st place \nPadded Armor 28968-32747 gil Bastok Citizen - 1st place \nIron Mittens 15897-17971 gil Bastok Citizen - 1st place",
+    "location": "Bastok Mines (H-6)\n\nMerchant for Deegis's Armour"
+  },
+  {
+    "merchant": "Gelzerio",
+    "type": "Standard Merchant",
+    "goodsPrice": "Silver Belt 10278-11618 gil \nLugworm 9-12 gil \nWillow Fishing Rod 66-74 gil \nRobe 220-249 gil \nCuffs 121-137 gil \nSlops 176-199 gil \nAsh Clogs 114-128 gil \nHeadgear 1781-2013 gil \nDoublet 2525-2854 gil \nGloves 1393-1575 gil \nBrais 1941-2194 gil \nGaiters 1297-1466 gil \nLittle Worm 3-4 gil Bastok - 2nd place \nYew Fishing Rod 217-245 gil Bastok - 2nd place \nSwordbelt 20037-22651 gil Bastok Citizen - 1st place \nBamboo Fishing Rod 496-561 gil Bastok Citizen - 1st place",
+    "location": "Bastok Mines (H-7)\n\nMerchant for Boytz's Knickknacks"
+  },
+  {
+    "merchant": "Griselda",
+    "type": "Standard Merchant",
+    "goodsPrice": "Iron Bread 92-104 gil \nMeat Jerky 110-124 gil \nDistilled Water 10-12 gil \nBretzel 22-24 gil Bastok - 2nd place \nPickled Herring 441-499 gil Bastok - 2nd place \nMelon Juice 1012-1144 gil Bastok - 2nd place\nPineapple Juice 368-416 gil Bastok Citizen - 1st place",
+    "location": "Bastok Mines (H-5)\n\nMerchant for the Bat's Lair Inn"
+  },
+  {
+    "merchant": "Maymunah",
+    "type": "Guild Merchant",
+    "goodsPrice": "Mercury\nMalboro Vine\nSulfur\nWijnruit\nCrying Mustard\nDried Marjoram\nChamomile\nSilent Oil\nSage\nCobalt Jellyfish\nGlass Fiber\nDistilled Water\nHoly Water\nAntidote\nEye Drops\nEcho Drops\nFiresand\nVitriol\nBlack Ink\nDeodorizer\nPotion\nEther\nPrism Powder\nArtificial Lens\nPoison Cesti\nFlame Degen\nHoly Mace",
+    "location": "Bastok Mines (K-7)\n\nMerchant for the Alchemists' Guild (Open 8-23, closed Lightsday)"
+  },
+  {
+    "merchant": "Neigepance",
+    "type": "Standard Merchant",
+    "goodsPrice": "Gysahl Greens 62-70 gil \nChocobo Feather 7-8 gil \nPet Food Alpha Biscuit 11-12 gil \nPet Food Beta Biscuit 82-93 gil \nCarrot Broth 82-93 gil \nBug Broth 695-786 gil \nHerbal Broth 126-143 gil \nCarrion Broth 695-786 gil \nScroll of Chocobo Mazurka 50784-69000 gil \nDart 9-10 gil Bastok Citizen - 1st place \nBlack Chocobo Feather 1150-1300 gil Bastok Citizen - 1st place",
+    "location": "Bastok Mines (J-9)\n\nLocated in the Chocobo Stables"
+  },
+  {
+    "merchant": "Odoba",
+    "type": "Guild Merchant",
+    "goodsPrice": "Mercury\nMalboro Vine\nSulfur\nWijnruit\nCrying Mustard\nDried Marjoram\nChamomile\nSilent Oil\nSage\nCobalt Jellyfish\nGlass Fiber\nDistilled Water\nHoly Water\nAntidote\nEye Drops\nEcho Drops\nFiresand\nVitriol\nBlack Ink\nDeodorizer\nPotion\nEther\nPrism Powder\nArtificial Lens\nPoison Cesti\nFlame Degen\nHoly Mace",
+    "location": "Bastok Mines (K-6)\n\nMerchant for the Alchemists' Guild (Open 8-23, closed Lightsday)"
+  },
+  {
+    "merchant": "Proud Beard",
+    "type": "Standard Merchant",
+    "goodsPrice": "Hume Tunic 276-312 gil \nHume Vest 276-312 gil \nHume M Gloves 165-187 gil \nHume F Gloves 165-187 gil \nHume Slacks 239-270 gil \nHume Pants 239-270 gil \nHume M Boots 165-187 gil \nHume F Boots 165-187 gil \nGalkan Surcoat 276-312 gil \nGalkan Bracers 165-187 gil \nGalkan Braguette 239-270 gil \nGalkan Sandals 165-187 gil",
+    "location": "Bastok Mines (K-8)\n\nLocated near the entrance to the Residential Rooms"
+  },
+  {
+    "merchant": "Zemedars",
+    "type": "Standard Merchant",
+    "goodsPrice": "Bronze Subligar 191-216 gil \nChain Hose 11592-13104 gil \nBronze Leggings 117-133 gil \nGreaves 7120-8049 gil \nLauan Shield 110-124 gil \nBrass Subligar 1840-2080 gil Bastok - 2nd place\nLeather Trousers 493-557 gil Bastok - 2nd place \nBrass Leggings 1140-1289 gil Bastok - 2nd place \nLeather Highboots 309-349 gil Bastok - 2nd place \nTarge 11076-12521 gil Bastok - 2nd place \nIron Subligar 23316-26357 gil Bastok Citizen - 1st place\nLizard Trousers 5003-5656 gil Bastok Citizen - 1st place \nLeggings 14484-16373 gil Bastok Citizen - 1st place \nLizard Ledelsens 3162-3575 gil Bastok Citizen - 1st place \nBuckler 31544-35658 gil Bastok Citizen - 1st place",
+    "location": "Bastok Mines (H-6)\n\nMerchant for Deegis's Armour, located in the back of the store"
+  },
+  {
+    "merchant": "Blabbivix",
+    "type": "Standard Merchant",
+    "goodsPrice": "Red Chip 21000 gil \nBlue Chip 21000 gil \nYellow Chip 21000 gil \nGreen Chip 21000 gil \nClear Chip 21000 gil \nPurple Chip 21000 gil \nWhite Chip 21000 gil \nBlack Chip 21000 gil",
+    "location": "Bastok Port (F-6)\n\nLocated in the walkway next to Warehouse 2 (Open 11-22, closed Windsday)"
+  },
+  {
+    "merchant": "Denvihr",
+    "type": "Standard Merchant",
+    "goodsPrice": "Copper Ore 10-14 gil \nAsh Log 86-105 gil Bastok - 2nd place \nChestnut Log 2543-3108 gil Bastok - 2nd place \nIron Ore 810-990 gil Bastok - 2nd place \nMoko Grass 18-22 gil Bastok - 2nd place \nBird Egg 50-61 gil Bastok - 2nd place\nOak Log 5688-6952 gil Bastok Citizen - 1st place \nMythril Ore 1800-2200 gil Bastok Citizen - 1st place \nFlax Flower 225-275 gil Bastok Citizen - 1st place \nKaiserin Cosmetics 1800-2200 gil",
+    "location": "Bastok Port (G-7)\n\nLocated on the airship dock; only accessible with an Airship Pass."
+  },
+  {
+    "merchant": "Galvin",
+    "type": "Standard Merchant",
+    "goodsPrice": "Eye Drops 2387-2698 gil \nAntidote 290-328 gil \nIron Arrow 7-10 gil \nCrossbow Bolt 5-6 gil \nEcho Drops 736-832 gil Bastok - 2nd place \nPotion 837-946 gil Bastok - 2nd place\nWooden Arrow 3-4 gil Bastok - 2nd place \nEther 4445-5025 gil Bastok Citizen - 1st place",
+    "location": "Bastok Port (E-7)\n\nMerchant for Galvin's Travel Gear"
+  },
+  {
+    "merchant": "Jabbar",
+    "type": "Tenshodo Merchant",
+    "goodsPrice": "Bamboo Stick 96-149 gil \nTama-Hagane 4690-10500 gil \nScroll of Katon: Ichi 1561-1747 gil \nScroll of Huton: Ichi 1561-1747 gil \nScroll of Doton: Ichi 1561-1747 gil \nScroll of Suiton: Ichi 1561-1747 gil \nScroll of Absorb-INT 37800-41370 gil \nScroll of Absorb-MND 14070-15750 gil \nScroll of Absorb-CHR 14070-15750 gil \nTurmeric 431-512 gil \nCoriander 1061-1259 gil \nHoly Basil 536-700 gil \nCurry Powder 579-1188 gil \nScroll of Absorb-VIT 41370 gil Occasionally Available\nScroll of Absorb-AGI 39270-41370 gil Occasionally Available \nTsurara 30-65 gil Occasionally Available\nScroll of Absorb-STR 40740 gil Occasionally Available\nGround Wasabi 1945-2387 gil \nRice Vinegar 150-160 gil",
+    "location": "Bastok Port (F-6)\n\nLocated in the upper section of Warehouse 2 (Open 1-23, closed Iceday)"
+  },
+  {
+    "merchant": "Melloa",
+    "type": "Standard Merchant",
+    "goodsPrice": "Iron Bread 92-104 gil \nBaked Popoto 294-332 gil \nPebble Soup 184-208 gil \nDistilled Water 10-12 gil \nBretzel 22-24 gil Bastok - 2nd place \nSausage 143-162 gil Bastok - 2nd place\nMelon Juice 1012-1144 gil Bastok - 2nd place \nRoast Mutton 662-748 gil Bastok - 2nd place \nPumpernickel 147-166 gil Bastok Citizen - 1st place \nEgg Soup 3036-3432 gil Bastok Citizen - 1st place \nPineapple Juice 368-416 gil Bastok Citizen - 1st place",
+    "location": "Bastok Port (D-6)\n\nMerchant for the Steaming Sheep Restaurant"
+  },
+  {
+    "merchant": "Numa",
+    "type": "Standard Merchant",
+    "goodsPrice": "Pickaxe 180-208 gil \nHachimaki 552-858 gil Bastok - 2nd place \nKenpogi 833-1294 gil Bastok - 2nd place \nTekko 458-712 gil Bastok - 2nd place \nSitabaki 666-1034 gil Bastok - 2nd place \nKyahan 424-660 gil Bastok - 2nd place\nBamboo Stick 96-149 gil Bastok - 2nd place \nCotton Hachimaki 3272-5079 gil Bastok Citizen - 1st place \nCotton Dogi 4931-7654 gil Bastok Citizen - 1st place \nCotton Tekko 2713-4212 gil Bastok Citizen - 1st place \nCotton Sitabaki 3951-6133 gil Bastok Citizen - 1st place\nCotton Kyahan 2528-3924 gil Bastok Citizen - 1st place \nSilver Obi 3383-3825 gil Bastok Citizen - 1st place",
+    "location": "Bastok Port (E-7)\n\nMerchant for Galvin's Travel Gear"
+  },
+  {
+    "merchant": "Sawyer",
+    "type": "Standard Merchant",
+    "goodsPrice": "Iron Bread 92-104 gil \nBaked Popoto 294-332 gil \nPebble Soup 184-208 gil \nDistilled Water 10-12 gil \nBretzel 22-24 gil Bastok - 2nd place \nSausage 143-162 gil Bastok - 2nd place\nMelon Juice 1012-1144 gil Bastok - 2nd place \nRoast Mutton 662-748 gil Bastok - 2nd place \nPumpernickel 147-166 gil Bastok Citizen - 1st place \nEgg Soup 3036-3432 gil Bastok Citizen - 1st place \nPineapple Juice 368-416 gil Bastok Citizen - 1st place",
+    "location": "Bastok Port (E-6)\n\nMerchant for the Steaming Sheep Restaurant"
+  },
+  {
+    "merchant": "Silver Owl",
+    "type": "Tenshodo Merchant",
+    "goodsPrice": "Kunai 517-592 gil \nShinobi-gatana 2728-3125 gil \nKanesada 11583-13266 gil \nTachi 1836-2103 gil \nKotetsu 14676-16808 gil \nHachimaki 552-858 gil \nCotton Hachimaki 3272-5079 gil \nNodowa 20061-22456 gil \nDarksteel Nodowa 43890-52440 gil \nKenpogi 833-1294 gil \nCotton Dogi 4931-7654 gil \nTekko 458-712 gil \nCotton Tekko 2713-4212 gil \nSitabaki 666-1034 gil \nCotton Sitabaki 3951-6133 gil \nKyahan 424-660 gil \nCotton Kyahan 2528-3924 gil \nCat Baghnakhs 106-225 gil Occasionally Available \nQuake Grenade 7333-7446 gil Occasionally Available",
+    "location": "Bastok Port (F-6)\n\nLocated in the lower section of Warehouse 2 (Open 1-23, closed Iceday)"
+  },
+  {
+    "merchant": "Sugandhi",
+    "type": "Standard Merchant",
+    "goodsPrice": "Bronze Knife 150-170 gil \nCat Baghnakhs 106-225 gil \nBronze Sword 246-278 gil \nIron Sword 7286-8236 gil \nDegen 9406-10632 gil \nSapara 713-807 gil \nKnife 2231-2522 gil Bastok - 2nd place \nMythril Sword 31648-35776 gil Bastok - 2nd place \nScimitar 4163-4706 gil Bastok - 2nd place \nKukri 5713-6458 gil Bastok Citizen - 1st place \nBroadsword 21535-24344 gil Bastok Citizen - 1st place\nTuck 11845-13391 gil Bastok Citizen - 1st place \nFalchion 62560-70720 gil Bastok Citizen - 1st place",
+    "location": "Bastok Port (G-6)\n\nLocated on the airship dock; only accessible with an Airship Pass."
+  },
+  {
+    "merchant": "Valeriano (Bastok)",
+    "type": "Standard Merchant",
+    "goodsPrice": "Ginger Cookie 11-12 gil \nFlute 44-49 gil \nPiccolo 1012-1144 gil \nScroll of Scop's Operetta 598-677 gil \nScroll of Puppet's Operetta 17296-19552 gil \nScroll of Fowl Aubade 2980-3369 gil \nScroll of Advancing March 2104-2379 gil \nScroll of Goddess's Hymnus 92000-104000 gil",
+    "location": "Bastok Port (K-8)\n\nPart of the travelling troupe, only available when Bastok is in first place in the Conquest; located by the large tents"
+  },
+  {
+    "merchant": "Amulya",
+    "type": "Guild Merchant",
+    "goodsPrice": "Copper Ore\nTin Ore\nIron Ore\nBronze Ingot\nIron Ingot\nBronze Sheet\nIron Sheet\nSteel Sheet\nBronze Scales\nIron Scales\nSteel Scales\nIron Chain\nBilbo\nTuck\nBronze Axe\nTabar\nHeavy Axe\nMaul\nBronze Leggings\nPlate Leggings\nBronze Cap\nPadded Cap\nIron Subligar\nCuisses\nBronze Mittens\nIron Mittens\nGauntlets\nBronze Harness\nGorget\nAspis\nTarge\nCrossbow Bolt\nTathlum",
+    "location": "Metalworks (E-9)\n\nMerchant for the Blacksmiths' Guild, located on the lower level (Open 8-23, closed Watersday)"
+  },
+  {
+    "merchant": "Nogga",
+    "type": "Standard Merchant",
+    "goodsPrice": "Grenade 1107-1252 gil \nBomb Arm 690-780 gil Bastok - 2nd place",
+    "location": "Metalworks (G-7)\n\nMerchant on the upper level in the Gunpowder Room"
+  },
+  {
+    "merchant": "Olaf",
+    "type": "Standard Merchant",
+    "goodsPrice": "Bullet 92-174 gil \nBomb Ash 473-535 gil \nArquebus 47876-54121 gil Bastok - 2nd place",
+    "location": "Metalworks (G-7)\n\nMerchant on the upper level in the Gunpowder Room"
+  },
+  {
+    "merchant": "Tomasa",
+    "type": "Standard Merchant",
+    "goodsPrice": "Iron Bread 92-104 gil \nBaked Popoto 294-332 gil \nPebble Soup 184-208 gil \nDistilled Water 10-12 gil \nBretzel 22-24 gil Bastok - 2nd place \nSausage 143-162 gil Bastok - 2nd place\nMelon Juice 1012-1144 gil Bastok - 2nd place \nSausage Roll 257-291 gil Bastok Citizen - 1st place \nHard-Boiled Egg 73-83 gil Bastok Citizen - 1st place \nEgg Soup 3036-3432 gil Bastok Citizen - 1st place \nPineapple Juice 368-416 gil Bastok Citizen - 1st place",
+    "location": "Metalworks (H-9)\n\nMerchant for the Craftsmen's Eatery, located on the upper level"
+  },
+  {
+    "merchant": "Vicious Eye",
+    "type": "Guild Merchant",
+    "goodsPrice": "Copper Ore\nTin Ore\nIron Ore\nBronze Ingot\nIron Ingot\nBronze Sheet\nIron Sheet\nSteel Sheet\nBronze Scales\nIron Scales\nSteel Scales\nIron Chain\nBilbo\nTuck\nBronze Axe\nTabar\nHeavy Axe\nMaul\nBronze Leggings\nPlate Leggings\nBronze Cap\nPadded Cap\nIron Subligar\nCuisses\nBronze Mittens\nIron Mittens\nGauntlets\nBronze Harness\nGorget\nAspis\nTarge\nCrossbow Bolt\nTathlum",
+    "location": "Metalworks (E-9)\n\nMerchant for the Blacksmiths' Guild, located on the lower level (Open 8-23, closed Watersday)"
+  },
+  {
+    "merchant": "Arachagnon",
+    "type": "Standard Merchant",
+    "goodsPrice": "Elvaan Jerkin 276-312 gil \nElvaan Bodice 276-312 gil \nElvaan Gloves 165-187 gil \nElvaan Gauntlets 165-187 gil \nElvaan M Chausses 239-270 gil \nElvaan F Chausses 239-270 gil \nElvaan M Ledelsens 165-187 gil \nElvaan F Ledelsens 165-187 gil",
+    "location": "San d'Oria North (F-3)\n\nLocated near the exit that leads to Port San d'Oria"
+  },
+  {
+    "merchant": "Arlenne",
+    "type": "Standard Merchant",
+    "goodsPrice": "Maple Wand 47-54 gil \nWillow Wand 340-384 gil San d'Oria - 2nd place \nYew Wand 1440-1628 gil San d'Oria Citizen - 1st place \nAsh Staff 58-66 gil \nHolly Staff 584-660 gil San d'Oria - 2nd place \nElm Staff 3642-3750 gil San d'Oria Citizen - 1st place\nHolly Pole 4669-5279 gil San d'Oria - 2nd place \nElm Pole 18422-18969 gil San d'Oria Citizen - 1st place \nBronze Spear 809-915 gil \nBrass Spear 4784-5408 gil San d'Oria - 2nd place \nSpear 16228-18345 gil San d'Oria Citizen - 1st place\nLance 19156 gil San d'Oria Citizen - 1st place\nBronze Zaghnal 316-357 gil \nBrass Zaghnal 2599-2938 gil San d'Oria - 2nd place \nZaghnal 13041 gil San d'Oria Citizen - 1st place",
+    "location": "San d'Oria North (E-4)\n\nMerchant for the Royal Armoury"
+  },
+  {
+    "merchant": "Boncort",
+    "type": "Standard Merchant",
+    "goodsPrice": "Black Bread 110-124 gil \nWhite Bread 184-208 gil San d'Oria - 2nd place \nMeat Jerky 110-124 gil \nSmoked Salmon 202-228 gil San d'Oria - 2nd place \nDistilled Water 10-12 gil \nGrape Juice 855-967 gil San d'Oria Citizen - 1st place\nApple Juice 276-312 gil San d'Oria - 2nd place \nScroll of Sword Madrigal 167-189 gil",
+    "location": "San d'Oria North (F-8)\n\nLocated upstairs in the Phoenix Perch Inn"
+  },
+  {
+    "merchant": "Cauzeriste",
+    "type": "Guild Merchant",
+    "goodsPrice": "Arrowwood Log\nLauan Log\nMaple Log\nAsh Log\nWillow Log\nHolly Log\nYew Log\nElm Log\nWalnut Log\nChestnut Log\nOak Log\nRosewood Log\nMahogany Log\nEbony Log\nBamboo Stick\nArrowwood Lumber\nLauan Lumber\nMaple Lumber\nAsh Lumber\nWillow Lumber\nHolly Lumber\nYew Lumber\nElm Lumber\nChestnut Lumber\nOak Lumber\nAncient Lumber\nLauan Shield\nMaple Shield\nWorkbench\nBook Holder\nFlower Stand\nMaple Table\nTarutaru Stool\nTraversiere\nAsh Club\nOak Cudgel\nGreat Club\nMaple Wand\nYew Wand\nChestnut Wand\nRose Wand\nShortbow\nGreat Bow\nBattle Bow\nAsh Staff\nHolly Staff\nElm Staff\nAsh Pole\nHolly Pole\nElm Pole\nSpear\nBoomerang\nWooden Arrow",
+    "location": "San d'Oria North (E-3)\n\nMerchant for the Carpenters' Guild (Open 6-21, closed Firesday)"
+  },
+  {
+    "merchant": "Chaupire",
+    "type": "Guild Merchant",
+    "goodsPrice": "Arrowwood Log\nLauan Log\nMaple Log\nAsh Log\nWillow Log\nHolly Log\nYew Log\nElm Log\nWalnut Log\nChestnut Log\nOak Log\nRosewood Log\nMahogany Log\nEbony Log\nBamboo Stick\nArrowwood Lumber\nLauan Lumber\nMaple Lumber\nAsh Lumber\nWillow Lumber\nHolly Lumber\nYew Lumber\nElm Lumber\nChestnut Lumber\nOak Lumber\nAncient Lumber\nLauan Shield\nMaple Shield\nWorkbench\nBook Holder\nFlower Stand\nMaple Table\nTarutaru Stool\nTraversiere\nAsh Club\nOak Cudgel\nGreat Club\nMaple Wand\nYew Wand\nChestnut Wand\nRose Wand\nShortbow\nGreat Bow\nBattle Bow\nAsh Staff\nHolly Staff\nElm Staff\nAsh Pole\nHolly Pole\nElm Pole\nSpear\nBoomerang\nWooden Arrow",
+    "location": "San d'Oria North (E-3)\n\nMerchant for the Carpenters' Guild (Open 6-21, closed Firesday)"
+  },
+  {
+    "merchant": "Doggomehr",
+    "type": "Guild Merchant",
+    "goodsPrice": "Copper Ore\nTin Ore\nIron Ore\nIron Sand\nBronze Ingot\nIron Ingot\nSteel Ingot\nBronze Sheet\nIron Sheet\nBronze Scales\nIron Scales\nSteel Scales\nBronze Dagger\nMythril Sword\nSpatha\nTwo-Handed Sword\nWar Pick\nMythril Pick\nBronze Mace\nBronze Zaghnal\nFaceguard\nIron Mask\nIron Visor\nSteel Visor\nScale Finger Gauntlets\nSteel Finger Gauntlets\nScale Greaves\nGreaves\nSteel Greaves\nScale Cuisses\nChain Hose\nIron Cuisses\nKite Shield",
+    "location": "San d'Oria North (E-5)\n\nMerchant for the Blacksmiths' Guild (open from 8-23, closed Watersday)"
+  },
+  {
+    "merchant": "Gaudylox",
+    "type": "Standard Merchant",
+    "goodsPrice": "Red Chip 21000 gil \nBlue Chip 21000 gil \nYellow Chip 21000 gil \nGreen Chip 21000 gil \nClear Chip 21000 gil \nPurple Chip 21000 gil \nWhite Chip 21000 gil \nBlack Chip 21000 gil",
+    "location": "San d'Oria North (F-4)\n\nLocated behind the lumber east of the Royal Armory (Open 11-22)"
+  },
+  {
+    "merchant": "Justi",
+    "type": "Standard Merchant",
+    "goodsPrice": "Water Cask 518-586 gil \nCupboard 15881-17952 gil \nOak Table 129168-146016 gil \nDresser 170726 gil San d'Oria Citizen - 1st place\nArmor Box 8376-9469 gil \nCoffer 35272-39873 gil San d'Oria - 2nd place\nCabinet 69888 gil San d'Oria Citizen - 1st place\nChiffonier 57333 gil San d'Oria Citizen - 1st place\nBundling Twine 92-104 gil",
+    "location": "San d'Oria North (G-8)\n\nMerchant for Justi's Furniture"
+  },
+  {
+    "merchant": "Lucretia",
+    "type": "Guild Merchant",
+    "goodsPrice": "Copper Ore\nTin Ore\nIron Ore\nIron Sand\nBronze Ingot\nIron Ingot\nSteel Ingot\nBronze Sheet\nIron Sheet\nBronze Scales\nIron Scales\nSteel Scales\nBronze Dagger\nMythril Sword\nSpatha\nTwo-Handed Sword\nWar Pick\nMythril Pick\nBronze Mace\nBronze Zaghnal\nFaceguard\nIron Mask\nIron Visor\nSteel Visor\nScale Finger Gauntlets\nSteel Finger Gauntlets\nScale Greaves\nGreaves\nSteel Greaves\nScale Cuisses\nChain Hose\nIron Cuisses\nKite Shield",
+    "location": "San d'Oria North (E-6)\n\nMerchant for the Blacksmiths' Guild (open from 8-23, closed Watersday)"
+  },
+  {
+    "merchant": "Pirvidiauce",
+    "type": "Standard Merchant",
+    "goodsPrice": "Ceramic Flowerpot 920-1040 gil \nAsh Clogs 114-128 gil \nHolly Clogs 1495-1690 gil San d'Oria - 2nd place \nChestnut Sabots 9180-9547 gil San d'Oria Citizen - 1st place \nWooden Arrow 3-4 gil \nCrossbow Bolt 5-6 gil San d'Oria - 2nd place\nEye Drops 2387-2698 gil \nAntidote 290-328 gil \nEcho Drops 736-832 gil San d'Oria - 2nd place \nPotion 837-946 gil San d'Oria Citizen - 1st place \nEther 4445-5025 gil San d'Oria Citizen - 1st place\nRed Gravel 4636-5241 gil",
+    "location": "San d'Oria North (D-8)"
+  },
+  {
+    "merchant": "Tavourine",
+    "type": "Standard Merchant",
+    "goodsPrice": "Bronze Knife 150-170 gil San d'Oria - 2nd place\nKnife 2231-2522 gil San d'Oria Citizen - 1st place \nBronze Rod 92-104 gil \nBrass Rod 634-717 gil San d'Oria - 2nd place \nRod 2439-2758 gil San d'Oria Citizen - 1st place \nBronze Mace 172-195 gil \nMace 4460-5041 gil San d'Oria - 2nd place \nBronze Axe 290-328 gil San d'Oria - 2nd place \nClaymore 2502-2828 gil San d'Oria - 2nd place \nMythril Claymore 38640-43680 gil San d'Oria Citizen - 1st place",
+    "location": "San d'Oria North (E-4)\n\nMerchant for the Royal Armoury"
+  },
+  {
+    "merchant": "Albinie",
+    "type": "Standard Merchant",
+    "goodsPrice": "Ash Log 86-105 gil \nChestnut Log 2543-3108 gil San d'Oria - 2nd place \nCopper Ore 10-14 gil San d'Oria - 2nd place \nIron Ore 810-990 gil San d'Oria - 2nd place \nMoko Grass 18-22 gil San d'Oria - 2nd place \nBird Egg 50-61 gil San d'Oria - 2nd place\nOak Log 5688-6952 gil San d'Oria Citizen - 1st place \nMythril Ore 1800-2200 gil San d'Oria Citizen - 1st place \nFlax Flower 225-275 gil San d'Oria Citizen - 1st place \nChocobo Bedding 1800-2200 gil",
+    "location": "San d'Oria Port (H-6)\n\nLocated on the airship dock; only accessible with an Airship Pass."
+  },
+  {
+    "merchant": "Coullave",
+    "type": "Standard Merchant",
+    "goodsPrice": "Leather Ring 1150-1300 gil \nHachimaki 552-858 gil San d'Oria Citizen - 1st place \nKenpogi 833-1294 gil San d'Oria Citizen - 1st place \nTekko 458-712 gil San d'Oria Citizen - 1st place \nSitabaki 666-1034 gil San d'Oria Citizen - 1st place \nKyahan 424-660 gil San d'Oria Citizen - 1st place\nBamboo Stick 96-149 gil San d'Oria - 2nd place \nEye Drops 2387-2698 gil \nAntidote 290-328 gil \nEcho Drops 736-832 gil San d'Oria - 2nd place \nPotion 837-946 gil San d'Oria Citizen - 1st place\nEther 4445-5025 gil San d'Oria Citizen - 1st place \nGrenade 1107-1252 gil San d'Oria Citizen - 1st place",
+    "location": "San d'Oria Port (F-10)\n\nLocated by the exit to North San d'Oria"
+  },
+  {
+    "merchant": "Croumangue",
+    "type": "Standard Merchant",
+    "goodsPrice": "Black Bread 110-124 gil \nWhite Bread 184-208 gil San d'Oria - 2nd place \nPebble Soup 184-208 gil \nVegetable Soup 1385-1566 gil San d'Oria - 2nd place \nMushroom Soup 7280 gil San d'Oria Citizen - 1st place\nDistilled Water 10-12 gil \nApple Juice 276-312 gil San d'Oria - 2nd place \nGrape Juice 855-967 gil San d'Oria Citizen - 1st place \nBoiled Crayfish 368-416 gil \nRoast Carp 478-540 gil San d'Oria - 2nd place \nRoast Trout 624 gil San d'Oria Citizen - 1st place",
+    "location": "San d'Oria Port (G-7)\n\nMerchant for the Rusty Anchor Pub"
+  },
+  {
+    "merchant": "Regine",
+    "type": "Standard Merchant",
+    "goodsPrice": "Scroll of Cure 62-70 gil \nScroll of Cure II 598-676 gil San d'Oria - 2nd place \nScroll of Curaga 1393-1575 gil \nScroll of Poisona 184-208 gil \nScroll of Paralyna 331-374 gil \nScroll of Blindna 1012-1144 gil \nScroll of Dia 84-95 gil \nScroll of Banish 143-162 gil San d'Oria - 2nd place \nScroll of Diaga 1191-1346 gil San d'Oria Citizen - 1st place \nScroll of Banishga 1191-1346 gil San d'Oria - 2nd place \nScroll of Protect 224-253 gil \nScroll of Shell 1619-1830 gil \nScroll of Blink 2143-2423 gil San d'Oria - 2nd place \nScroll of Stoneskin 7181-8118 gil San d'Oria Citizen - 1st place \nScroll of Aquaveil 368-416 gil \nScroll of Slow 855-967 gil San d'Oria Citizen - 1st place\nScroll of Stone 62-70 gil \nScroll of Water 143-162 gil \nScroll of Aero 331-374 gil \nScroll of Fire 855-967 gil \nScroll of Blizzard 1619-1830 gil \nScroll of Thunder 3334-3768 gil \nScroll of Poison 84-95 gil San d'Oria - 2nd place \nScroll of Bio 368-416 gil San d'Oria - 2nd place \nScroll of Blind 114-128 gil San d'Oria Citizen - 1st place \nScroll of Sleep 2300-2600 gil San d'Oria - 2nd place\nScroll of Burn 4747-5366 gil \nScroll of Frost 3770-4261 gil \nScroll of Choke 2300-2600 gil \nScroll of Rasp 1867-2111 gil \nScroll of Shock 1393-1575 gil \nScroll of Drown 6508-7356 gil",
+    "location": "San d'Oria Port (J-8)\n\nMerchant for Regine's Magicmart"
+  },
+  {
+    "merchant": "Ashene",
+    "type": "Standard Merchant",
+    "goodsPrice": "Cesti 132-149 gil \nBronze Dagger 143-162 gil \nBrass Dagger 855-967 gil \nDagger 1867-2111 gil San d'Oria - 2nd place \nBaselard 4979 gil San d'Oria Citizen - 1st place\nBrass Xiphos 3601-4071 gil \nGladius 19568 gil San d'Oria Citizen - 1st place\nBronze Sword 246-278 gil \nIron Sword 7286-8236 gil San d'Oria - 2nd place \nBroadsword 21535-24344 gil San d'Oria Citizen - 1st place \nSpatha 1711-1934 gil \nLongsword 8478-9584 gil San d'Oria - 2nd place \nHunting Sword 41333 gil San d'Oria Citizen - 1st place\nFleuret 15491 gil San d'Oria Citizen - 1st place",
+    "location": "San d'Oria South (K-7)\n\nMerchant for Helbort's Blades"
+  },
+  {
+    "merchant": "Aveline",
+    "type": "Standard Merchant",
+    "goodsPrice": "Faerie Apple 40-45 gil San d'Oria - 2nd place\nSaruta Orange 29-33 gil San d'Oria Citizen - 1st place \nSan d'Orian Grape 69-79 gil \nSan d'Orian Carrot 29-33 gil \nLa Theine Cabbage 22-24 gil San d'Oria - 2nd place \nFrost Turnip 29-33 gil San d'Oria Citizen - 1st place\nOlive Oil 14-16 gil \nSage 170-192 gil \nBay Leaves 119-135 gil San d'Oria Citizen - 1st place \nApple Vinegar 91 gil San d'Oria Citizen - 1st place",
+    "location": "San d'Oria South (F-7)\n\nMerchant for Raimbroy's Groceries"
+  },
+  {
+    "merchant": "Benaige",
+    "type": "Standard Merchant",
+    "goodsPrice": "Crying Mustard 25-29 gil \nDried Marjoram 44-49 gil San d'Oria - 2nd place \nRye Flour 36-41 gil \nSan d'Orian Flour 55-62 gil San d'Oria - 2nd place \nMaple Sugar 36-41 gil San d'Oria - 2nd place \nCinnamon 239-270 gil San d'Oria Citizen - 1st place\nMillioncorn 44-49 gil San d'Oria Citizen - 1st place \nRock Salt 14-16 gil \nDistilled Water 10-12 gil \nSemolina 1840-2080 gil San d'Oria - 2nd place",
+    "location": "San d'Oria South (F-7)\n\nMerchant for Raimbroy's Groceries"
+  },
+  {
+    "merchant": "Carautia",
+    "type": "Standard Merchant",
+    "goodsPrice": "Maple Shield 556-629 gil \nMahogany Shield 4581-5179 gil San d'Oria - 2nd place \nBronze Subligar 191-216 gil \nBrass Subligar 1840-2080 gil \nLeather Trousers 493-557 gil \nStudded Trousers 16920-19127 gil San d'Oria - 2nd place\nChain Hose 11592-13104 gil San d'Oria Citizen - 1st place \nBronze Leggings 117-133 gil \nBrass Leggings 1140-1289 gil \nLeather Highboots 309-349 gil \nStudded Boots 10278-11618 gil San d'Oria - 2nd place\nGreaves 7120-8049 gil San d'Oria Citizen - 1st place \nKite Shield 11880 gil San d'Oria Citizen - 1st place",
+    "location": "San d'Oria South (K-8)\n\nMerchant for Rosel's Armour Shop"
+  },
+  {
+    "merchant": "Cletae",
+    "type": "Guild Merchant",
+    "goodsPrice": "Rabbit Hide\nSheepskin\nDhalmel Hide\nWolf Hide\nRam Skin\nTiger Hide\nCoeurl Hide\nDhalmel Leather\nRam Leather\nTiger Leather\nRaptor Skin\nCockatrice Skin\nSheep Wool\nWillow Log\nDistilled Water\nRabbit Mantle\nWolf Mantle\nRam Mantle\nLizard Mantle\nRaptor Mantle\nWaistbelt\nLeather Gorget\nWolf Gorget\nLeather Vest\nBrigandine\nCuir Bouilli\nRaptor Jerkin\nStudded Boots\nCuir Highboots\nSandals\nLeather Gloves\nLizard Gloves\nStudded Gloves\nCuir Gloves\nLeather Bandana\nLizard Helm\nLeather Trousers\nCuir Trousers\nRaptor Trousers\nSolea\nLizard Cesti\nHimantes\nLeather Ring",
+    "location": "San d'Oria South (D-8)\n\nMerchant for the Tanners' Guild (Open 3-18, closed Iceday)"
+  },
+  {
+    "merchant": "Ferdoulemiont",
+    "type": "Standard Merchant",
+    "goodsPrice": "Gysahl Greens 62-70 gil \nChocobo Feather 7-8 gil \nScroll of Knight's Minne 16-18 gil \nScroll of Knight's Minne II 883-998 gil \nScroll of Knight's Minne III 5262-5948 gil \nDart 9-10 gil San d'Oria - 2nd place\nBlack Chocobo Feather 1150-1300 gil San d'Oria Citizen - 1st place \nPet Food Alpha Biscuit 11-12 gil \nPet Food Beta Biscuit 82-93 gil \nCarrot Broth 82-93 gil \nBug Broth 695-786 gil \nHerbal Broth 126-143 gil \nCarrion Broth 695-786 gil \nScroll of Chocobo Mazurka 50784-69000 gil",
+    "location": "San d'Oria South (I-11)\n\nLocated outside the Chocobo Stables"
+  },
+  {
+    "merchant": "Kueh Igunahmori",
+    "type": "Guild Merchant",
+    "goodsPrice": "Rabbit Hide\nSheepskin\nDhalmel Hide\nWolf Hide\nRam Skin\nTiger Hide\nCoeurl Hide\nDhalmel Leather\nRam Leather\nTiger Leather\nRaptor Skin\nCockatrice Skin\nSheep Wool\nWillow Log\nDistilled Water\nRabbit Mantle\nWolf Mantle\nRam Mantle\nLizard Mantle\nRaptor Mantle\nWaistbelt\nLeather Gorget\nWolf Gorget\nLeather Vest\nBrigandine\nCuir Bouilli\nRaptor Jerkin\nStudded Boots\nCuir Highboots\nSandals\nLeather Gloves\nLizard Gloves\nStudded Gloves\nCuir Gloves\nLeather Bandana\nLizard Helm\nLeather Trousers\nCuir Trousers\nRaptor Trousers\nSolea\nLizard Cesti\nHimantes\nLeather Ring",
+    "location": "San d'Oria South (D-8)\n\nMerchant for the Tanners' Guild (Open 3-18, closed Iceday)"
+  },
+  {
+    "merchant": "Lusiane",
+    "type": "Standard Merchant",
+    "goodsPrice": "Lugworm 9-12 gil San d'Oria - 2nd place\nLittle Worm 3-4 gil \nBamboo Fishing Rod 496-561 gil San d'Oria Citizen - 1st place \nYew Fishing Rod 217-245 gil San d'Oria - 2nd place \nWillow Fishing Rod 66-74 gil \nScroll of Light Threnody 110-124 gil \nScroll of Lightning Threnody 1265-1431 gil",
+    "location": "San d'Oria South (F-8)\n\nLocated in front of Taumila's Sundries"
+  },
+  {
+    "merchant": "Miogique",
+    "type": "Standard Merchant",
+    "goodsPrice": "Bronze Cap 154-174 gil \nBrass Cap 1504-1700 gil \nLeather Bandana 404-457 gil \nStudded Bandana 13179-14899 gil San d'Oria - 2nd place \nIron Mask 9439-10670 gil San d'Oria Citizen - 1st place \nBronze Harness 235-266 gil \nBrass Harness 2286-2584 gil \nLeather Vest 618-698 gil \nStudded Vest 20976-23712 gil San d'Oria - 2nd place \nChainmail 14572-16473 gil San d'Oria Citizen - 1st place \nBronze Mittens 128-145 gil \nBrass Mittens 1255-1419 gil \nLeather Gloves 331-374 gil \nStudded Gloves 11012-12448 gil San d'Oria - 2nd place \nChain Mittens 7783-8798 gil San d'Oria Citizen - 1st place \nGauntlets 23846-26956 gil San d'Oria Citizen - 1st place",
+    "location": "San d'Oria South (K-8)\n\nMerchant for Rosel's Armour Shop"
+  },
+  {
+    "merchant": "Ostalie",
+    "type": "Standard Merchant",
+    "goodsPrice": "Leather Belt 391-442 gil \nLizard Belt 2484-2808 gil \nSilver Belt 10278-11618 gil San d'Oria Citizen - 1st place \nCirclet 147-166 gil \nRobe 220-249 gil \nCuffs 121-137 gil \nSlops 176-199 gil \nEye Drops 2387-2698 gil \nAntidote 290-328 gil \nEcho Drops 736-832 gil San d'Oria - 2nd place \nPotion 837-946 gil San d'Oria Citizen - 1st place\nEther 4445-5025 gil San d'Oria Citizen - 1st place \nPickaxe 180-208 gil \nHatchet 460-520 gil \nThief's Tools 3643-4118 gil Occasionally Available \nLiving Key 5520-6240 gil Occasionally Available",
+    "location": "San d'Oria South (E-9)\n\nMerchant for Taumila's Sundries"
+  },
+  {
+    "merchant": "Shilah",
+    "type": "Standard Merchant",
+    "goodsPrice": "Black Bread 110-124 gil \nWhite Bread 184-208 gil San d'Oria - 2nd place \nPuls 552-624 gil \nDelicious Puls 1104-1248 gil San d'Oria - 2nd place \nMushroom Risotto 5050-5200 gil San d'Oria Citizen - 1st place \nPebble Soup 184-208 gil \nVegetable Soup 1385-1566 gil San d'Oria - 2nd place \nMushroom Soup 7280 gil San d'Oria Citizen - 1st place\nBeaugreen Sautee 1669-1887 gil San d'Oria - 2nd place \nDistilled Water 10-12 gil \nGrape Juice 855-967 gil San d'Oria - 2nd place\nSan d'Orian Tea 2882 gil San d'Oria Citizen - 1st place",
+    "location": "San d'Oria South (K-6)\n\nMerchant for the Lion Springs Tavern"
+  },
+  {
+    "merchant": "Thadiene",
+    "type": "Standard Merchant",
+    "goodsPrice": "Shortbow 40-45 gil \nSelf Bow 493-557 gil San d'Oria - 2nd place \nWrapped Bow 7999-8236 gil San d'Oria Citizen - 1st place \nLongbow 452-511 gil \nGreat Bow 22684 gil San d'Oria Citizen - 1st place\nWooden Arrow 3-4 gil \nIron Arrow 7-10 gil San d'Oria - 2nd place \nSilver Arrow 16-18 gil San d'Oria Citizen - 1st place \nFire Arrow 128-187 gil San d'Oria - 2nd place \nCrossbow Bolt 5-6 gil San d'Oria - 2nd place \nBoomerang 1610-1820 gil San d'Oria Citizen - 1st place\nScroll of Battlefield Elegy 4416-4992 gil",
+    "location": "San d'Oria South (K-7)\n\nMerchant for Helbort's Blades"
+  },
+  {
+    "merchant": "Valeriano (San d'Oria)",
+    "type": "Standard Merchant",
+    "goodsPrice": "Ginger Cookie 11-12 gil \nFlute 44-49 gil \nPiccolo 1012-1144 gil \nScroll of Scop's Operetta 598-677 gil \nScroll of Puppet's Operetta 17296-19552 gil \nScroll of Fowl Aubade 2980-3369 gil \nScroll of Advancing March 2104-2379 gil \nScroll of Goddess's Hymnus 92000-104000 gil",
+    "location": "San d'Oria South (I-9)\n\nPart of the travelling troupe, only available when San d'Oria is in first place in the Conquest; located east of a large tent"
+  },
+  {
+    "merchant": "Aroro",
+    "type": "Standard Merchant",
+    "goodsPrice": "Scroll of Stone 62-70 gil \nScroll of Water 143-162 gil \nScroll of Aero 331-374 gil \nScroll of Fire 855-967 gil \nScroll of Blizzard 1619-1830 gil \nScroll of Thunder 3334-3768 gil \nScroll of Poison 84-95 gil Windurst - 2nd place \nScroll of Bio 368-416 gil Windurst - 2nd place \nScroll of Sleep 2300-2600 gil Windurst - 2nd place \nScroll of Burn 4747-5366 gil \nScroll of Frost 3770-4261 gil \nScroll of Choke 2300-2600 gil \nScroll of Rasp 1867-2111 gil \nScroll of Shock 1393-1575 gil \nScroll of Drown 6508-7356 gil \nScroll of Blind 114-128 gil Windurst Citizen - 1st place",
+    "location": "Windurst Port (H-8)\n\nMerchant for Kususu's Hoodoos"
+  },
+  {
+    "merchant": "Babubu",
+    "type": "Guild Merchant",
+    "goodsPrice": "Little Worm\nLugworm\nSardine Ball\nCrayfish Ball\nInsect Ball\nTrout Ball\nMeatball\nSliced Sardine\nSliced Cod\nPeeled Lobster\nSlice of Bluetail\nPeeled Crayfish\nSlice of Carp\nFly Lure\nMinnow\nWorm Lure\nShrimp Lure\nSabiki Rig\nWillow Fishing Rod\nYew Fishing Rod\nBamboo Fishing Rod\nFastwater Fishing Rod\nTarutaru Fishing Rod\nMithran Fishing Rod\nClothespole\nSingle-Hook Fishing Rod\nCobalt Jellyfish\nCrayfish\nPamtam Kelp\nBastore Sardine\nShining Trout\nShall Shell\nCheval Salmon\nTricolored Carp\nGold Carp\nNosteau Herring\nPipira\nTiger Cod\nDark Bass\nNebimonite\nGrimmonite\nBlack Eel\nOgre Eel\nSandfish\nZafmlug Bass\nRed Terrapin\nGold Lobster\nBluetail\nCrescent Fish\nNoble Lady\nCopper Frog\nSilver Shark\nBastore Bream\nBlack Sole\nQuus\nGiant Catfish\nGavial Fish\nBhefhel Marlin\nBladefish",
+    "location": "Windurst Port (C-8)\n\nMerchant for the Fisherman's Guild (Open 3-18, closed Lightningday)"
+  },
+  {
+    "merchant": "Guruna-Maguruna",
+    "type": "Standard Merchant",
+    "goodsPrice": "Hemp Gorget 993-1123 gil \nDoublet 2525-2854 gil \nRobe 220-249 gil \nLeather Vest 618-698 gil \nTunic 1288-1456 gil Windurst - 2nd place \nCotton Doublet 12629-14277 gil Windurst - 2nd place\nGloves 1393-1575 gil \nCuffs 121-137 gil \nLeather Gloves 331-374 gil Windurst - 2nd place \nMitts 602-681 gil Windurst - 2nd place \nCotton Gloves 6844-7737 gil Windurst - 2nd place\nBeetle Gorget 4714-4854 gil Windurst Citizen - 1st place \nLinen Robe 3115-3208 gil Windurst Citizen - 1st place \nLinen Cuffs 1762-1814 gil Windurst Citizen - 1st place",
+    "location": "Windurst Port (H-9)\n\nMerchant for Guruna-Maguruna Tailoring"
+  },
+  {
+    "merchant": "Hohbiba-Mubiba",
+    "type": "Standard Merchant",
+    "goodsPrice": "Maple Wand 47-54 gil \nWillow Wand 340-384 gil Windurst - 2nd place \nAsh Club 66-74 gil \nChestnut Club 1600-1809 gil \nBone Cudgel 4945-5591 gil Windurst - 2nd place \nAsh Staff 58-66 gil \nHolly Staff 584-660 gil Windurst - 2nd place \nAsh Pole 386-436 gil \nHolly Pole 4669-5279 gil Windurst - 2nd place \nBronze Dagger 143-162 gil \nYew Wand 1440-1628 gil Windurst Citizen - 1st place\nBronze Rod 92-104 gil Windurst Citizen - 1st place \nElm Staff 3642-3750 gil Windurst Citizen - 1st place \nElm Pole 18422-18969 gil Windurst Citizen - 1st place",
+    "location": "Windurst Port (H-9)\n\nMerchant for Hohbiba-Mubiba's Wands of Wonder"
+  },
+  {
+    "merchant": "Kucha Malkobhi",
+    "type": "Standard Merchant",
+    "goodsPrice": "Tarutaru Kaftan 276-312 gil \nTarutaru Mitts 165-187 gil \nTarutaru Braccae 239-270 gil \nTarutaru Clomps 165-187 gil \nMithran Separates 276-312 gil \nMithran Gauntlets 165-187 gil \nMithran Loincloth 239-270 gil \nMithran Gaiters 165-187 gil",
+    "location": "Windurst Port (E-7)\n\nLocated west of the Home Point"
+  },
+  {
+    "merchant": "Kumama",
+    "type": "Standard Merchant",
+    "goodsPrice": "Brais 1941-2194 gil \nSlops 176-199 gil \nLeather Trousers 493-557 gil Windurst - 2nd place \nCotton Brais 9936-11232 gil Windurst - 2nd place \nGaiters 1297-1466 gil \nAsh Clogs 114-128 gil \nLeather Highboots 309-349 gil Windurst - 2nd place \nSolea 556-629 gil Windurst - 2nd place \nCotton Gaiters 6633-7498 gil Windurst - 2nd place \nLauan Shield 110-124 gil \nMaple Shield 556-629 gil Windurst - 2nd place\nLinen Slops 2545-2620 gil Windurst Citizen - 1st place \nHolly Clogs 1495-1690 gil Windurst Citizen - 1st place \nMahogany Shield 4581-5179 gil Windurst Citizen - 1st place",
+    "location": "Windurst Port (H-9)\n\nMerchant for Guruna-Maguruna Tailoring"
+  },
+  {
+    "merchant": "Kususu",
+    "type": "Standard Merchant",
+    "goodsPrice": "Scroll of Cure 62-70 gil \nScroll of Cure II 598-676 gil Windurst - 2nd place \nScroll of Curaga 1393-1575 gil \nScroll of Poisona 184-208 gil \nScroll of Paralyna 331-374 gil \nScroll of Blindna 1012-1144 gil \nScroll of Dia 84-95 gil \nScroll of Banish 143-162 gil Windurst - 2nd place \nScroll of Banishga 1191-1346 gil Windurst - 2nd place \nScroll of Protect 224-253 gil \nScroll of Shell 1619-1830 gil \nScroll of Blink 2143-2423 gil Windurst - 2nd place \nScroll of Aquaveil 368-416 gil \nScroll of Diaga 1191-1346 gil Windurst Citizen - 1st place \nScroll of Stoneskin 7181-8118 gil Windurst Citizen - 1st place \nScroll of Slow 855-967 gil Windurst Citizen - 1st place",
+    "location": "Windurst Port (H-8)\n\nMerchant for Kususu's Hoodoos"
+  },
+  {
+    "merchant": "Ryan",
+    "type": "Standard Merchant",
+    "goodsPrice": "Bronze Axe 290-328 gil \nBronze Sword 246-278 gil \nCrossbow Bolt 5-6 gil \nBronze Harness 235-266 gil \nBrass Harness 2286-2584 gil \nBronze Mittens 128-145 gil \nBrass Mittens 1255-1419 gil \nBronze Subligar 191-216 gil \nBrass Subligar 1840-2080 gil \nBronze Leggings 117-133 gil \nBrass Leggings 1140-1289 gil \nKenpogi 833-1294 gil \nTekko 458-712 gil \nSitabaki 666-1034 gil \nKyahan 424-660 gil",
+    "location": "Windurst Port (H-7)"
+  },
+  {
+    "merchant": "Taniko-Maniko",
+    "type": "Standard Merchant",
+    "goodsPrice": "Cat Baghnakhs 106-225 gil Windurst - 2nd place\nCesti 132-149 gil Windurst - 2nd place \nBone Axe 4291-4851 gil \nBone Pick 5994-6776 gil Windurst - 2nd place \nBronze Zaghnal 316-357 gil \nHarpoon 99-112 gil \nShortbow 40-45 gil \nSelf Bow 493-557 gil Windurst - 2nd place \nWooden Arrow 3-4 gil Windurst - 2nd place \nBone Arrow 4-5 gil \nHawkeye 55-62 gil Windurst - 2nd place\nBoomerang 1610-1820 gil Windurst - 2nd place \nBrass Zaghnal 2599-2938 gil Windurst Citizen - 1st place \nWrapped Bow 7999-8236 gil Windurst Citizen - 1st place \nIce Arrow 141-145 gil Windurst Citizen - 1st place \nLightning Arrow 141-145 gil Windurst Citizen - 1st place",
+    "location": "Windurst Port (H-9)\n\nMerchant for Hohbiba-Mubiba's Wands of Wonder"
+  },
+  {
+    "merchant": "Uli Pehkowa",
+    "type": "Standard Merchant",
+    "goodsPrice": "Ash Log 86-105 gil Windurst - 2nd place\nChestnut Log 2543-3108 gil Windurst - 2nd place \nCopper Ore 10-14 gil Windurst - 2nd place \nIron Ore 810-990 gil Windurst - 2nd place \nMoko Grass 18-22 gil \nBird Egg 50-61 gil Windurst - 2nd place\nMythril Ore 1800-2200 gil Windurst Citizen - 1st place \nFlax Flower 225-275 gil Windurst Citizen - 1st place \nOak Log 5688-6952 gil Windurst Citizen - 1st place \nMy First Magic Kit 1800-2200 gil",
+    "location": "Windurst Port (M-7)\n\nLocated on the airship dock; only accessible with an Airship Pass."
+  },
+  {
+    "merchant": "Chomo Jinjahl",
+    "type": "Guild Merchant",
+    "goodsPrice": "Rock Salt\nRye Flour\nSan d'Orian Flour\nKazham Peppers\nMhaura Garlic\nSelbina Milk\nSelbina Butter\nPie Dough\nBlue Peas\nPopoto\nTarutaru Rice\nCrying Mustard\nDried Marjoram\nApple Vinegar\nGelatin\nCinnamon\nMillioncorn\nHare Meat\nGiant Sheep Meat\nDhalmel Meat\nShining Trout\nBastore Sardine\nBird Egg\nFaerie Apple\nRolanberry\nLa Theine Cabbage\nBeaugreens\nBatagreens\nHoney\nSmoked Salmon\nSan d'Orian Carrot\nMithran Tomato\nSaruta Orange\nBluetail\nThundermelon\nSan d'Orian Grape\nKazham Pineapple\nRarab Tail\nPamamas\nWatermelon\nWhite Bread\nBlack Bread\nIron Bread\nCinna-cookie\nApple Pie\nGrilled Hare\nRoast Mutton\nDhalmel Steak\nMeat Jerky\nRoast Carp\nRoast Trout\nTortilla\nBoiled Crab\nHard-Boiled Egg\nRoast Mushroom\nMeat Mithkabob\nOrange Juice\nApple Juice\nMelon Juice\nGrape Juice\nPineapple Juice\nTomato Juice\nMulsum\nRoasted Corn\nBaked Popoto\nBeaugreen Sautee\nPuls\nPebble Soup\nPea Soup\nTomato Soup\nEgg Soup\nTurmeric\nCoriander\nHoly Basil",
+    "location": "Windurst Waters (E-8)\n\nMerchant for the Culinarians' Guild in Windurst Waters North (Open 5-20, closed Darksday)"
+  },
+  {
+    "merchant": "Ensasa",
+    "type": "Standard Merchant",
+    "goodsPrice": "Earthen Flowerpot 920-1040 gil \nTarutaru Stool 905-1023 gil \nYellow Jar 456-515 gil Windurst - 2nd place \nWooden Arrow 3-4 gil Windurst - 2nd place \nBone Arrow 4-5 gil \nCrossbow Bolt 5-6 gil Windurst - 2nd place\nScroll of Earth Threnody 283-320 gil \nScroll of Fire Threnody 644-728 gil \nWhite Jar 4744-5397 gil \nLugworm 9-12 gil \nLittle Worm 3-4 gil \nTarutaru Folding Screen 3881-3996 gil Windurst Citizen - 1st place \nRiver Foliage 576-704 gil \nSea Foliage 576-704 gil",
+    "location": "Windurst Waters (H-9)\n\nMerchant for Ensasa's Catalyst Shop in Windurst Waters North"
+  },
+  {
+    "merchant": "Hilkomu-Makimu",
+    "type": "Standard Merchant",
+    "goodsPrice": "Scroll of Stone II 5878-6645 gil \nScroll of Water II 8280-9360 gil \nScroll of Aero II 12236-13832 gil \nScroll of Fire II 16928-19136 gil \nScroll of Blizzard II 22356-25272 gil \nScroll of Thunder II 28520-32240 gil \nScroll of Stonega 1191-1346 gil Windurst - 2nd place \nScroll of Waterga 2143-2423 gil Windurst - 2nd place \nScroll of Aeroga 4239-4792 gil Windurst - 2nd place \nScroll of Firaga 7181-8118 gil Windurst - 2nd place \nScroll of Blizzaga 10948-12376 gil Windurst - 2nd place\nScroll of Thundaga 15456-17472 gil Windurst - 2nd place \nScroll of Shock Spikes 8280-9360 gil Windurst - 2nd place \nScroll of Poison II 23184-26208 gil Windurst Citizen - 1st place \nScroll of Bio II 12880-14560 gil Windurst Citizen - 1st place \nScroll of Poisonga 4747-5366 gil Windurst Citizen - 1st place",
+    "location": "Windurst Waters (G-7)\n\nMerchant for the Federal Magic Reserve in Windurst Waters South"
+  },
+  {
+    "merchant": "Kopopo",
+    "type": "Guild Merchant",
+    "goodsPrice": "Rock Salt\nRye Flour\nSan d'Orian Flour\nKazham Peppers\nMhaura Garlic\nSelbina Milk\nSelbina Butter\nPie Dough\nBlue Peas\nPopoto\nTarutaru Rice\nCrying Mustard\nDried Marjoram\nApple Vinegar\nGelatin\nCinnamon\nMillioncorn\nHare Meat\nGiant Sheep Meat\nDhalmel Meat\nShining Trout\nBastore Sardine\nBird Egg\nFaerie Apple\nRolanberry\nLa Theine Cabbage\nBeaugreens\nBatagreens\nHoney\nSmoked Salmon\nSan d'Orian Carrot\nMithran Tomato\nSaruta Orange\nBluetail\nThundermelon\nSan d'Orian Grape\nKazham Pineapple\nRarab Tail\nPamamas\nWatermelon\nWhite Bread\nBlack Bread\nIron Bread\nCinna-cookie\nApple Pie\nGrilled Hare\nRoast Mutton\nDhalmel Steak\nMeat Jerky\nRoast Carp\nRoast Trout\nTortilla\nBoiled Crab\nHard-Boiled Egg\nRoast Mushroom\nMeat Mithkabob\nOrange Juice\nApple Juice\nMelon Juice\nGrape Juice\nPineapple Juice\nTomato Juice\nMulsum\nRoasted Corn\nBaked Popoto\nBeaugreen Sautee\nPuls\nPebble Soup\nPea Soup\nTomato Soup\nEgg Soup\nSalmon Sub\nTurmeric\nCoriander\nHoly Basil",
+    "location": "Windurst Waters (E-8)\n\nMerchant for the Culinarians' Guild in Windurst Waters North (Open 5-20, closed Darksday)"
+  },
+  {
+    "merchant": "Ness Rugetomal",
+    "type": "Standard Merchant",
+    "goodsPrice": "Acorn Cookie 73-83 gil \nCinna-cookie 14-15 gil Windurst - 2nd place \nMeat Jerky 110-124 gil \nDistilled Water 10-12 gil \nOrange Juice 184-208 gil Windurst - 2nd place \nRoast Pipira 846-956 gil \nBoiled Crab 2070-2340 gil Windurst - 2nd place \nGinger Cookie 11-12 gil Windurst Citizen - 1st place \nCarp Sushi 727-748 gil Windurst Citizen - 1st place \nTomato Juice 323-332 gil Windurst Citizen - 1st place \nNebimonite Bake 1818-1872 gil Windurst Citizen - 1st place",
+    "location": "Windurst Waters (F-10)\n\nMerchant for the Rarab Tail Hostelry in Windurst Waters North"
+  },
+  {
+    "merchant": "Orez-Ebrez",
+    "type": "Standard Merchant",
+    "goodsPrice": "Headgear 1781-2013 gil \nCirclet 147-166 gil Windurst - 2nd place \nHachimaki 552-858 gil \nCotton Headband 1840-2080 gil \nBronze Cap 154-174 gil \nCotton Headgear 8204-9274 gil Windurst - 2nd place\nLeather Bandana 404-457 gil Windurst - 2nd place \nPoet's Circlet 1904-2152 gil Windurst - 2nd place \nFlax Headband 14720-16640 gil Windurst - 2nd place \nCotton Hachimaki 3272-5079 gil Windurst - 2nd place \nBrass Cap 1504-1700 gil \nBone Mask 3599-4068 gil Windurst - 2nd place \nWool Hat 11166-12623 gil Windurst - 2nd place \nRed Cap 20000-20800 gil Windurst Citizen - 1st place \nSoil Hachimaki 8972-13927 gil Windurst Citizen - 1st place \nBeetle Mask 7026-7943 gil Windurst Citizen - 1st place",
+    "location": "Windurst Waters (H-7)\n\nMerchant for Baren-Moren Hatter in Windurst Waters South"
+  },
+  {
+    "merchant": "Shohrun-Tuhrun",
+    "type": "Standard Merchant",
+    "goodsPrice": "Scroll of Cure III 3334-3768 gil \nScroll of Raise 5293-5984 gil Windurst - 2nd place \nScroll of Dia II 10304-11648 gil Windurst - 2nd place \nScroll of Banish II 8280-9360 gil Windurst - 2nd place \nScroll of Protect II 6508-16192 gil Windurst - 2nd place \nScroll of Protect IV 78200-104000 gil \nScroll of Protectra IV 74520-98800 gil \nScroll of Dispel 64400-80704 gil \nScroll of Shell II 16192-18304 gil Windurst - 2nd place \nScroll of Enfire 4747-5366 gil Windurst - 2nd place \nScroll of Enblizzard 3770-4261 gil Windurst - 2nd place\nScroll of Enaero 2300-2600 gil Windurst - 2nd place \nScroll of Enstone 1867-2111 gil Windurst - 2nd place \nScroll of Enthunder 1393-1575 gil Windurst - 2nd place \nScroll of Enwater 6508-7356 gil Windurst - 2nd place \nScroll of Haste 18400-20800 gil Windurst Citizen - 1st place",
+    "location": "Windurst Waters (G-7)\n\nMerchant for the Federal Magic Reserve in Windurst Waters South"
+  },
+  {
+    "merchant": "Taajiji",
+    "type": "Standard Merchant",
+    "goodsPrice": "Tortilla 128-145 gil \nMutton Tortilla 5216-5896 gil Windurst - 2nd place \nPuls 552-624 gil \nDhalmel Stew 2387-2698 gil \nWhitefish Stew 6064-6855 gil Windurst - 2nd place \nBeaugreen Sautee 1669-1887 gil Windurst - 2nd place\nDistilled Water 10-12 gil \nOrange Juice 184-208 gil Windurst - 2nd place \nWindurstian Tea 184-208 gil \nDhalmel Steak 1324-1497 gil Windurst - 2nd place \nWindurst Salad 1711-1934 gil \nDhalmel Pie 848-873 gil Windurst Citizen - 1st place \nMushroom Risotto 5050-5200 gil Windurst Citizen - 1st place \nShallops Tropicale 12762-13141 gil Windurst Citizen - 1st place \nOrange Kuchen 984-1014 gil Windurst Citizen - 1st place",
+    "location": "Windurst Waters (F-10)\n\nMerchant for Timbre Timbers Tavern in Windurst Waters North"
+  },
+  {
+    "merchant": "Upih Khachla",
+    "type": "Standard Merchant",
+    "goodsPrice": "Dried Marjoram 44-49 gil \nChamomile 119-135 gil Windurst - 2nd place \nEye Drops 2387-2698 gil \nAntidote 290-328 gil \nEcho Drops 736-832 gil Windurst - 2nd place \nEther 4445-5025 gil Windurst - 2nd place\nTwinkle Powder 354-400 gil \nPickaxe 180-208 gil \nSickle 276-312 gil \nThief's Tools 3643-4118 gil Occasionally Available \nWijnruit 110-124 gil Windurst Citizen - 1st place\nPotion 837-946 gil Windurst Citizen - 1st place \nGrenade 1107-1252 gil Windurst Citizen - 1st place \nLiving Key 5520-6240 gil Occasionally Available \nDesalinator 3960-4840 gil \nSalinator 3960-4840 gil",
+    "location": "Windurst Waters (H-9)\n\nMerchant for Ensasa's Catalyst Shop in Windurst Waters North"
+  },
+  {
+    "merchant": "Kuzah Hpirohpon",
+    "type": "Guild Merchant",
+    "goodsPrice": "Moko Grass\nSaruta Cotton\nFlax Flower\nSheep Wool\nCrawler Cocoon\nGrass Thread\nCotton Thread\nLinen Thread\nWool Thread\nSilk Thread\nSilver Thread\nGold Thread\nGrass Cloth\nCotton Cloth\nWool Cloth\nYagudo Feather\nBird Feather\nDoublet\nRobe\nLinen Robe\nGaiters\nGloves\nCotton Gloves\nCuffs\nLinen Cuffs\nMitts\nBlack Mitts\nHeadgear\nCotton Headband\nBrais\nSlops\nCape\nCotton Cape\nBlack Cape\nHemp Gorget\nWing Earring",
+    "location": "Windurst Woods (F-12)\n\nMerchant for the Weavers' Guild (Open 6-21, closed Firesday)"
+  },
+  {
+    "merchant": "Manyny",
+    "type": "Standard Merchant",
+    "goodsPrice": "Scroll of Sinewy Etude 3146-3556 gil \nScroll of Dextrous Etude 2815-3182 gil \nScroll of Vivacious Etude 2208-2496 gil \nScroll of Quick Etude 1913-2163 gil \nScroll of Learned Etude 1567-1772 gil \nScroll of Spirited Etude 1265-1431 gil \nScroll of Enchanting Etude 1000-1131 gil",
+    "location": "Windurst Woods (H-13)\n\nMerchant for Nchaa's Good Goods"
+  },
+  {
+    "merchant": "Meriri",
+    "type": "Guild Merchant",
+    "goodsPrice": "Moko Grass\nSaruta Cotton\nFlax Flower\nSheep Wool\nCrawler Cocoon\nGrass Thread\nCotton Thread\nLinen Thread\nWool Thread\nSilk Thread\nSilver Thread\nGold Thread\nGrass Cloth\nCotton Cloth\nWool Cloth\nYagudo Feather\nBird Feather\nDoublet\nRobe\nLinen Robe\nGaiters\nGloves\nCotton Gloves\nCuffs\nLinen Cuffs\nMitts\nBlack Mitts\nHeadgear\nCotton Headband\nBrais\nSlops\nCape\nCotton Cape\nBlack Cape\nHemp Gorget\nWing Earring",
+    "location": "Windurst Woods (F-12)\n\nMerchant for the Weavers' Guild (Open 6-21, closed Firesday)"
+  },
+  {
+    "merchant": "Mono Nchaa",
+    "type": "Standard Merchant",
+    "goodsPrice": "Wooden Arrow 3-4 gil Windurst - 2nd place\nBone Arrow 4-5 gil \nHawkeye 55-62 gil Windurst - 2nd place \nLight Crossbow 165-187 gil Windurst - 2nd place \nCrossbow Bolt 5-6 gil \nScroll of Hunter's Prelude 2649-2995 gil",
+    "location": "Windurst Woods (H-13)\n\nMerchant for Nchaa's Good Goods"
+  },
+  {
+    "merchant": "Quesse",
+    "type": "Standard Merchant",
+    "goodsPrice": "Gysahl Greens 62-70 gil \nChocobo Feather 7-8 gil \nDart 9-10 gil \nPet Food Alpha Biscuit 11-12 gil \nPet Food Beta Biscuit 82-93 gil \nCarrot Broth 82-93 gil \nBug Broth 695-786 gil \nHerbal Broth 126-143 gil \nCarrion Broth 695-786 gil \nScroll of Chocobo Mazurka 50784-69000 gil \nBlack Chocobo Feather 1150-1300 gil Windurst Citizen - 1st place",
+    "location": "Windurst Woods (K-12)\n\nLocated in the Chocobo Stables"
+  },
+  {
+    "merchant": "Retto-Marutto",
+    "type": "Guild Merchant",
+    "goodsPrice": "Bone Chip\nCrab Shell\nSheep Tooth\nBlack Tiger Fang\nTurtle Shell\nSeashell\nBeetle Shell\nGiant Femur\nRam Horn\nScorpion Claw\nFish Scales\nCarapace Harness\nJustaucorps\nShell Earring\nBone Earring\nBeetle Mittens\nCarapace Mittens\nBone Mask\nBeetle Mask\nCarapace Mask\nBone Hairpin\nHorn Hairpin\nFang Necklace\nBeetle Gorget\nBone Subligar\nBeetle Subligar\nTurtle Shield\nShell Ring\nBone Ring\nBeetle Ring\nHorn Ring\nScorpion Ring\nTurtle Bangles\nBone Knife\nBone Pick\nHorn\nBone Cudgel\nBone Arrow\nAstragalos",
+    "location": "Windurst Woods (H-12)\n\nLocated in the Boneworkers' Guild (Open 8-23, closed Windsday)"
+  },
+  {
+    "merchant": "Shih Tayuun",
+    "type": "Guild Merchant",
+    "goodsPrice": "Bone Chip\nCrab Shell\nSheep Tooth\nBlack Tiger Fang\nTurtle Shell\nSeashell\nBeetle Shell\nGiant Femur\nRam Horn\nScorpion Claw\nFish Scales\nCarapace Harness\nJustaucorps\nShell Earring\nBone Earring\nBeetle Mittens\nCarapace Mittens\nBone Mask\nBeetle Mask\nCarapace Mask\nBone Hairpin\nHorn Hairpin\nFang Necklace\nBeetle Gorget\nBone Subligar\nBeetle Subligar\nTurtle Shield\nShell Ring\nBone Ring\nBeetle Ring\nHorn Ring\nScorpion Ring\nTurtle Bangles\nBone Knife\nBone Pick\nHorn\nBone Cudgel\nBone Arrow\nAstragalos",
+    "location": "Windurst Woods (H-12)\n\nLocated in the Boneworkers' Guild (Open 8-23, closed Windsday)"
+  },
+  {
+    "merchant": "Valeriano (Windurst)",
+    "type": "Standard Merchant",
+    "goodsPrice": "Ginger Cookie 11-12 gil \nFlute 44-49 gil \nPiccolo 1012-1144 gil \nScroll of Scop's Operetta 598-677 gil \nScroll of Puppet's Operetta 17296-19552 gil \nScroll of Fowl Aubade 2980-3369 gil \nScroll of Advancing March 2104-2379 gil \nScroll of Goddess's Hymnus 92000-104000 gil",
+    "location": "Windurst Woods (H-10)\n\nPart of the travelling troupe, only available when Windurst is in first place in the Conquest; located next to a large tent"
+  },
+  {
+    "merchant": "Wije Tiren",
+    "type": "Standard Merchant",
+    "goodsPrice": "Eye Drops 2387-2698 gil \nAntidote 290-328 gil \nEcho Drops 736-832 gil \nPotion 837-946 gil \nEther 4445-5025 gil \nScroll of Herb Pastoral 99-112 gil \nDistilled Water 10-12 gil",
+    "location": "Windurst Woods (I-8)"
+  },
+  {
+    "merchant": "Adelflete",
+    "type": "Standard Merchant",
+    "goodsPrice": "Tourmaline 1713-1937 gil \nSardonyx 1713-1937 gil \nAmethyst 1713-1937 gil \nAmber 1713-1937 gil \nLapis Lazuli 1713-1937 gil \nOnyx 1713-1937 gil \nLight Opal 1713-1937 gil \nSilver Earring 1150-1300 gil \nSilver Ring 1150-1300 gil \nClear Topaz 1713-1937 gil",
+    "location": "Jeuno Lower (H-9)\n\nMerchant for Gems by Kshama"
+  },
+  {
+    "merchant": "Akamafula",
+    "type": "Tenshodo Merchant",
+    "goodsPrice": "Kunai 517-592 gil \nWakizashi 1404-1608 gil \nUchigatana 3121-3575 gil \nDotanuki 224510 gil \nKanesada 11583-13266 gil \nTachi 1836-2103 gil \nNodachi 4752-15760 gil \nOkanehira 12253-14033 gil \nTanegashima 25732 gil \nShuriken 46-87 gil \nHachimaki 552-858 gil \nCotton Hachimaki 3272-5079 gil \nSoil Hachimaki 8972-13927 gil \nNodowa 20061-22456 gil \nKenpogi 833-1294 gil \nCotton Dogi 4931-7654 gil \nSoil Gi 13266-14850 gil \nTekko 458-712 gil \nCotton Tekko 2713-4212 gil \nSoil Tekko 2713-8316 gil \nSitabaki 666-1034 gil \nCotton Sitabaki 3951-6133 gil \nSoil Sitabaki 10805-12096 gil \nKyahan 424-660 gil \nCotton Kyahan 2528-3924 gil \nSoil Kyahan 11071-12393 gil",
+    "location": "Jeuno Lower (J-8)\n\nMerchant for the Tenshodo (Open 1-23, closed Earthsday)"
+  },
+  {
+    "merchant": "Amalasanda",
+    "type": "Tenshodo Merchant",
+    "goodsPrice": "Bamboo Stick 96-149 gil \nSilk Cloth 35070 gil \nBlack Pepper 234-298 gil \nKoma 165-210 gil \nTama-Hagane 4690-10500 gil \nUrushi 55147 gil \nScroll of Katon: Ichi 1561-1747 gil \nScroll of Huton: Ichi 1561-1747 gil \nScroll of Doton: Ichi 1561-1747 gil \nScroll of Suiton: Ichi 1561-1747 gil \nSticky Rice 316 gil \nTurmeric 431-512 gil \nCoriander 1061-1259 gil \nHoly Basil 536-700 gil \nCurry Powder 579-1188 gil \nGround Wasabi 1945-2387 gil \nRice Vinegar 150-160 gil \nUchitake 66-73 gil \nMakibishi 58-76 gil \nMizu-Deppo 44-73 gil",
+    "location": "Jeuno Lower (J-8)\n\nMerchant for the Tenshodo (Open 1-23, closed Earthsday)"
+  },
+  {
+    "merchant": "Chenokih",
+    "type": "Standard Merchant",
+    "goodsPrice": "Hose 24500 gil \nLinen Slacks 22632 gil \nWool Hose 57600 gil \nWool Slops 14756 gil \nBlack Slacks 6348-6900 gil \nSocks 16000 gil \nShoes 14352 gil \nWool Socks 35200 gil \nChestnut Sabots 9180-9547 gil \nSandals 4128-4488 gil \nBlack Cape 11088 gil \nScarlet Ribbon 1250 gil",
+    "location": "Jeuno Lower (H-9)\n\nMerchant for Othon's Garments"
+  },
+  {
+    "merchant": "Chetak",
+    "type": "Standard Merchant",
+    "goodsPrice": "Red Cap 20000-20800 gil \nWool Cap 45760 gil \nWool Hat 11166-12623 gil \nGambison 32500 gil \nCloak 33212 gil \nWool Gambison 68640 gil \nWool Robe 18088 gil \nBlack Tunic 9527-10356 gil \nBracers 16900 gil \nLinen Mitts 15732 gil \nWool Cuffs 10234 gil \nWhite Mitts 4443-4830 gil",
+    "location": "Jeuno Lower (J-8)\n\nMerchant for Othon's Garments"
+  },
+  {
+    "merchant": "Creepstix",
+    "type": "Standard Merchant",
+    "goodsPrice": "Scroll of Goblin Gavotte 8160 gil \nScroll of Protectra II 7074 gil \nScroll of Shellra 1760 gil",
+    "location": "Jeuno Lower (H-9)\n\nMerchant for Muckvix's Junk Shop"
+  },
+  {
+    "merchant": "Ghebi Damomohe",
+    "type": "Tenshodo Merchant",
+    "goodsPrice": "Rice Ball 144-186 gil \nEel Kabob 2700-3150 gil \nGarlic Cracker 3-4 gil",
+    "location": "Jeuno Lower (I-7)\n\nMerchant for the Neptune's Spire; prices are based on Norg fame, but she sells to anyone."
+  },
+  {
+    "merchant": "Hasim",
+    "type": "Standard Merchant",
+    "goodsPrice": "Scroll of Cure IV 23400 gil \nScroll of Curaga II 10304-11200 gil \nScroll of Curaga III 19932 gil \nScroll of Protect III 32000 gil \nScroll of Barfira 1760 gil \nScroll of Barblizzard 3624 gil \nScroll of Baraero 930 gil \nScroll of Barstone 156 gil \nScroll of Barthunder 5754 gil \nScroll of Barwater 360 gil \nScroll of Barblizzara 3624 gil \nScroll of Baraera 930 gil \nScroll of Barstonra 156 gil \nScroll of Barthundra 5754 gil \nScroll of Barwatera 360 gil \nScroll of Barfire 1760 gil",
+    "location": "Jeuno Lower (H-9)\n\nMerchant for Waag-Deeg's Magic Shop"
+  },
+  {
+    "merchant": "Matoaka",
+    "type": "Standard Merchant",
+    "goodsPrice": "Silver Earring 1150-1300 gil \nSilver Ring 1150-1300 gil \nMythril Earring 4140-4500 gil",
+    "location": "Jeuno Lower (H-9)\n\nMerchant for Gems by Kshama"
+  },
+  {
+    "merchant": "Morefie",
+    "type": "Standard Merchant",
+    "goodsPrice": "Silver Earring 1150-1300 gil \nSilver Ring 1150-1300 gil \nMythril Earring 4140-4500 gil",
+    "location": "Jeuno Lower (H-9)\n\nMerchant for Gems by Kshama"
+  },
+  {
+    "merchant": "Pawkrix",
+    "type": "Standard Merchant",
+    "goodsPrice": "Horo Flour 36-41 gil \nGoblin Bread 276-300 gil \nGoblin Pie 650 gil \nGoblin Chocolate 35 gil \nGoblin Mushpot 1140 gil \nPoison Flour 515 gil \nGoblin Doll 490-500 gil",
+    "location": "Jeuno Lower (H-10)\n\nMerchant for Goblins' Goblet, through Muckvix's Junk Shop"
+  },
+  {
+    "merchant": "Rhimonne",
+    "type": "Standard Merchant",
+    "goodsPrice": "Gysahl Greens 62-70 gil \nChocobo Feather 7-8 gil \nDart 9-10 gil",
+    "location": "Jeuno Lower (G-11)\n\nLocated in the Chocobo Stables"
+  },
+  {
+    "merchant": "Stinknix",
+    "type": "Standard Merchant",
+    "goodsPrice": "Poison Dust 294-320 gil \nVenom Dust 1035 gil \nParalysis Dust 2000 gil \nIron Arrow 7-10 gil \nCrossbow Bolt 5-6 gil \nGrenade 1107-1252 gil",
+    "location": "Jeuno Lower (H-9)\n\nMerchant for Muckvix's Junk Shop"
+  },
+  {
+    "merchant": "Susu",
+    "type": "Standard Merchant",
+    "goodsPrice": "Scroll of Holy 32200-35000 gil \nScroll of Banishga II 20000 gil \nScroll of Silena 2330 gil \nScroll of Stona 19200 gil \nScroll of Viruna 13300 gil \nScroll of Cursna 8586 gil \nScroll of Barsleep 244 gil \nScroll of Barpoison 400 gil \nScroll of Barparalyze 780 gil \nScroll of Barsilence 4608 gil \nScroll of Barsleepra 244 gil \nScroll of Barpoisonra 400 gil \nScroll of Barparalyzra 780 gil \nScroll of Barblindra 2030 gil \nScroll of Barsilencera 4608 gil \nScroll of Barblind 2030 gil",
+    "location": "Jeuno Lower (H-9)\n\nMerchant for Waag-Deeg's Magic Shop"
+  },
+  {
+    "merchant": "Taza",
+    "type": "Standard Merchant",
+    "goodsPrice": "Scroll of Sleepga 10304-11200 gil \nScroll of Shell III 26244 gil \nScroll of Protectra III 19200 gil \nScroll of Shellra II 14080 gil \nScroll of Shellra III 26244 gil \nScroll of Barpetrify 15120 gil \nScroll of Barvirus 9600 gil \nScroll of Barpetra 15120 gil \nScroll of Barvira 9600 gil \nScroll of Sleep II 18720 gil \nScroll of Stone III 19932 gil \nScroll of Water III 22682 gil \nScroll of Aero III 27744 gil \nScroll of Fire III 33306 gil \nScroll of Blizzard III 39368 gil \nScroll of Thunder III 45930 gil",
+    "location": "Jeuno Lower (H-9)\n\nMerchant for Waag-Deeg's Magic Shop"
+  },
+  {
+    "merchant": "Yoskolo",
+    "type": "Standard Merchant",
+    "goodsPrice": "Distilled Water 10-12 gil \nOrange Juice 184-208 gil \nApple Juice 276-312 gil \nMelon Juice 1012-1144 gil \nGrape Juice 855-967 gil \nPineapple Juice 368-416 gil \nIcecap Rolanberry 5544 gil \nScroll of Fire Carol 6380 gil \nScroll of Ice Carol 7440 gil \nScroll of Wind Carol 5940 gil \nScroll of Earth Carol 4600 gil \nScroll of Lightning Carol 7920 gil \nScroll of Water Carol 5000 gil \nScroll of Light Carol 4200 gil \nScroll of Dark Carol 8400 gil",
+    "location": "Jeuno Lower (I-8)\n\nMerchant for the Merry Minstrel"
+  },
+  {
+    "merchant": "Challoux",
+    "type": "Standard Merchant",
+    "goodsPrice": "Gysahl Greens 62-70 gil \nChocobo Feather 7-8 gil \nDart 9-10 gil",
+    "location": "Jeuno Port (I-8)\n\nLocated underground near the Chocobo Stables"
+  },
+  {
+    "merchant": "Gekko",
+    "type": "Standard Merchant",
+    "goodsPrice": "Eye Drops 2387-2698 gil \nAntidote 290-328 gil \nEcho Drops 736-832 gil \nPotion 837-946 gil \nEther 4445-5025 gil \nRolanberry 120 gil \nAutumn's End 36000 gil \nAcolyte's Grief 31224 gil",
+    "location": "Jeuno Port (H-8)\n\nMerchant for the Jeuno Duty-Free shop, located underground"
+  },
+  {
+    "merchant": "Leyla",
+    "type": "Standard Merchant",
+    "goodsPrice": "Hawkeye 55-62 gil \nIron Arrow 7-10 gil \nCrossbow Bolt 5-6 gil \nScroll of Sinewy Etude 3146-3556 gil \nScroll of Dextrous Etude 2815-3182 gil \nScroll of Vivacious Etude 2208-2496 gil \nScroll of Quick Etude 1913-2163 gil \nScroll of Learned Etude 1567-1772 gil \nScroll of Spirited Etude 1265-1431 gil \nScroll of Enchanting Etude 1000-1131 gil \nDistilled Water 10-12 gil",
+    "location": "Jeuno Port (H-8)\n\nMerchant for the Jeuno Duty-Free shop, located underground"
+  },
+  {
+    "merchant": "Antonia",
+    "type": "Standard Merchant",
+    "goodsPrice": "Mythril Rod 6256 gil \nOak Cudgel 11232 gil \nMythril Mace 18048 gil \nWarhammer 6033-6820 gil \nOak Pole 37440 gil \nHalberd 44550 gil \nScythe 10596 gil \nIron Arrow 7-10 gil",
+    "location": "Jeuno Upper (H-8)\n\nMerchant for Viette's Finest Weapons"
+  },
+  {
+    "merchant": "Areebah",
+    "type": "Standard Merchant",
+    "goodsPrice": "Chamomile 119-135 gil \nWijnruit 110-124 gil \nCarnation 60 gil \nRed Rose 80 gil \nRain Lily 96 gil \nLilac 120 gil \nAmaryllis 120 gil \nMarguerite 120 gil",
+    "location": "Jeuno Upper (H-6)\n\nMerchant for M & P's Market"
+  },
+  {
+    "merchant": "Champalpieu",
+    "type": "Standard Merchant",
+    "goodsPrice": "Rolanberry 120 gil \nIron Arrow 7-10 gil \nCrossbow Bolt 5-6 gil \nScroll of Wind Threnody 567 gil \nScroll of Water Threnody 420 gil \nPickaxe 180-208 gil",
+    "location": "Jeuno Upper (H-6)\n\nMerchant for M & P's Market"
+  },
+  {
+    "merchant": "Coumuna",
+    "type": "Standard Merchant",
+    "goodsPrice": "Mythril Claws 29760 gil \nKatars 15488 gil \nMythril Knife 14560 gil \nKris 11128-12096 gil \nMythril Degen 31000 gil \nKnight's Sword 85250 gil \nTwo-Handed Sword 13926 gil \nMythril Axe 48600 gil \nGreataxe 4186-4732 gil",
+    "location": "Jeuno Upper (H-8)\n\nMerchant for Viette's Finest Weapons"
+  },
+  {
+    "merchant": "Deadly Minnow",
+    "type": "Standard Merchant",
+    "goodsPrice": "Studded Bandana 13179-14899 gil \nSilver Mask 22800 gil \nBanded Helm 47025 gil \nStudded Vest 20976-23712 gil \nSilver Mail 35200 gil \nBanded Mail 66792-72600 gil \nStudded Gloves 11012-12448 gil \nSilver Mittens 18800 gil \nGauntlets 23846-26956 gil \nMufflers 35673-38775 gil",
+    "location": "Jeuno Upper (H-9)\n\nMerchant for Durable Shields"
+  },
+  {
+    "merchant": "Glyke",
+    "type": "Standard Merchant",
+    "goodsPrice": "Iron Bread 92-104 gil \nTortilla 128-145 gil \nWhite Bread 184-208 gil \nPea Soup 1400 gil \nBoiled Crab 2070-2340 gil \nRoast Mutton 662-748 gil \nBaked Apple 440 gil \nWindurst Salad 1711-1934 gil \nHerb Quus 4585-4984 gil \nOrange Juice 184-208 gil \nApple Juice 276-312 gil \nPineapple Juice 368-416 gil \nMelon Juice 1012-1144 gil \nGrape Juice 855-967 gil",
+    "location": "Jeuno Upper (F-7)\n\nMerchant for the Marble Bridge tavern"
+  },
+  {
+    "merchant": "Khe Chalahko",
+    "type": "Standard Merchant",
+    "goodsPrice": "Sallet 29311-33134 gil \nBreastplate 45208-51105 gil \nCuisses 34776-39312 gil \nPlate Leggings 21859-24710 gil \nBreeches 53130-57750 gil \nSollerets 32637-35475 gil",
+    "location": "Jeuno Upper (H-9)\n\nMerchant for Durable Shields"
+  },
+  {
+    "merchant": "Leillaine",
+    "type": "Standard Merchant",
+    "goodsPrice": "Distilled Water 10-12 gil \nEye Drops 2387-2698 gil \nAntidote 290-328 gil \nEcho Drops 736-832 gil \nPotion 837-946 gil \nEther 4445-5025 gil \nRemedy 22400 gil",
+    "location": "Jeuno Upper (G-9)\n\nLocated in the Infirmary"
+  },
+  {
+    "merchant": "Mejuone",
+    "type": "Standard Merchant",
+    "goodsPrice": "Gysahl Greens 62-70 gil \nChocobo Feather 7-8 gil \nDart 9-10 gil",
+    "location": "Jeuno Upper (G-7)\n\nLocated in the Chocobo Stables"
+  },
+  {
+    "merchant": "Dabih Jajalioh",
+    "type": "Standard Merchant",
+    "goodsPrice": "Chamomile 119-135 gil \nWijnruit 110-124 gil \nCarnation 60 gil \nRed Rose 80 gil \nRain Lily 96 gil \nLilac 120 gil \nAmaryllis 120 gil \nMarguerite 120 gil \nOgre Pumpkin 88-99 gil Occasionally Available \nGoblin Doll 490-500 gil Occasionally Available \nKoma 165-210 gil Occasionally Available\nTwinkle Powder 354-400 gil Occasionally Available \nFruit Seeds 900 gil Occasionally Available\nLacquer Tree Log 50000 gil Occasionally Available\nScroll of Reraise III 500000-552000 gil Occasionally Available \nLibation Abjuration 250000 gil Occasionally Available",
+    "location": "Ru'Lude Gardens (F-9)\n\nLocated down the stairs southeast of the Auction Hall"
+  },
+  {
+    "merchant": "Celestina",
+    "type": "Guild Merchant",
+    "goodsPrice": "Copper Ore\nSilver Ore\nCopper Ingot\nSilver Ingot\nRed Rock\nBlue Rock\nYellow Rock\nGreen Rock\nTranslucent Rock\nPurple Rock\nBlack Rock\nWhite Rock",
+    "location": "Mhaura (G-8)\n\nMerchant for the Goldsmiths' Guild Salesroom (Open 8-23, closed Iceday)"
+  },
+  {
+    "merchant": "Graine",
+    "type": "Standard Merchant",
+    "goodsPrice": "Leather Bandana 404-457 gil \nBronze Cap 154-174 gil \nBrass Cap 1504-1700 gil \nLeather Vest 618-698 gil \nBronze Harness 235-266 gil \nBrass Harness 2286-2584 gil \nLeather Gloves 331-374 gil \nBronze Mittens 128-145 gil \nBrass Mittens 1255-1419 gil \nLeather Trousers 493-557 gil \nBronze Subligar 191-216 gil \nBrass Subligar 1840-2080 gil \nLeather Highboots 309-349 gil \nBronze Leggings 117-133 gil \nBrass Leggings 1140-1289 gil",
+    "location": "Mhaura (H-8)\n\nMerchant for the Sailors' Stay, located downstairs"
+  },
+  {
+    "merchant": "Kamilah",
+    "type": "Guild Merchant",
+    "goodsPrice": "Copper Ore\nTin Ore\nIron Ore\nIron Ingot\nSteel Ingot\nBronze Sheet",
+    "location": "Mhaura (G-9)\n\nMerchant for the Blacksmiths' Guild Salesroom (Open 8-23, closed Watersday)"
+  },
+  {
+    "merchant": "Mololo",
+    "type": "Guild Merchant",
+    "goodsPrice": "Copper Ore\nTin Ore\nIron Ore\nIron Ingot\nSteel Ingot\nBronze Sheet",
+    "location": "Mhaura (G-9)\n\nMerchant for the Blacksmiths' Guild Salesroom (Open 8-23, closed Watersday)"
+  },
+  {
+    "merchant": "Pikini-Mikini",
+    "type": "Standard Merchant",
+    "goodsPrice": "Eye Drops 2387-2698 gil \nAntidote 290-328 gil \nEcho Drops 736-832 gil \nPotion 837-946 gil \nDistilled Water 10-12 gil \nLugworm 9-12 gil \nHatchet 460-520 gil \nScroll of Regen 3974 gil \nScroll of Regen II 7203 gil \nScroll of Sleepga 10304-11200 gil \nMeat Jerky 110-124 gil \nSalsa 133-162 gil",
+    "location": "Mhaura (G-9)\n\nLocated in a warehouse down by the waterfront"
+  },
+  {
+    "merchant": "Runito-Monito",
+    "type": "Standard Merchant",
+    "goodsPrice": "Cat Baghnakhs 106-225 gil \nBrass Baghnakhs 1554 gil \nBrass Dagger 855-967 gil \nBronze Rod 92-104 gil \nBrass Rod 634-717 gil \nBrass Xiphos 3601-4071 gil \nClaymore 2502-2828 gil \nButterfly Axe 618-698 gil \nDart 9-10 gil \nWooden Arrow 3-4 gil \nBone Arrow 4-5 gil \nCrossbow Bolt 5-6 gil",
+    "location": "Mhaura (H-8)\n\nMerchant for the Sailors' Stay, located upstairs"
+  },
+  {
+    "merchant": "Yabby Tanmikey",
+    "type": "Guild Merchant",
+    "goodsPrice": "Copper Ore\nSilver Ore\nCopper Ingot\nSilver Ingot\nRed Rock\nBlue Rock\nYellow Rock\nGreen Rock\nTranslucent Rock\nPurple Rock\nBlack Rock\nWhite Rock",
+    "location": "Mhaura (G-8)\n\nMerchant for the Goldsmiths' Guild Salesroom (Open 8-23, closed Iceday)"
+  },
+  {
+    "merchant": "Chutarmire",
+    "type": "Standard Merchant",
+    "goodsPrice": "Scroll of Stone II 5878-6645 gil \nScroll of Water II 8280-9360 gil \nScroll of Aero II 12236-13832 gil \nScroll of Fire II 16928-19136 gil \nScroll of Blizzard II 22356-25272 gil \nScroll of Thunder II 28520-32240 gil \nScroll of Stonega 1191-1346 gil \nScroll of Waterga 2143-2423 gil \nScroll of Aeroga 4239-4792 gil \nScroll of Firaga 7181-8118 gil \nScroll of Blizzaga 10948-12376 gil \nScroll of Thundaga 15456-17472 gil \nScroll of Poison II 23184-26208 gil \nScroll of Bio II 12880-14560 gil \nScroll of Poisonga 4747-5366 gil \nScroll of Shock Spikes 8280-9360 gil",
+    "location": "Selbina (H-9)"
+  },
+  {
+    "merchant": "Dohdjuma",
+    "type": "Standard Merchant",
+    "goodsPrice": "Rye Flour 36-41 gil \nScroll of Sheepfoe Mambo 238 gil \nEye Drops 2387-2698 gil \nAntidote 290-328 gil \nDistilled Water 10-12 gil \nPotion 837-946 gil \nLugworm 9-12 gil \nSelbina Milk 55-62 gil \nPickled Herring 441-499 gil \nHerb Quus 4585-4984 gil",
+    "location": "Selbina (G-10)\n\nLocated near the water"
+  },
+  {
+    "merchant": "Gibol",
+    "type": "Guild Merchant",
+    "goodsPrice": "Moko Grass\nFlax Flower\nSheep Wool\nGrass Thread\nCotton Thread\nLinen Thread\nWool Thread\nSilk Thread\nSilver Thread\nGold Thread\nGrass Cloth\nCotton Cloth\nYagudo Feather",
+    "location": "Selbina (H-9)\n\nMerchant for the Weavers' Guild Salesroom (Open 6-21, closed Firesday)"
+  },
+  {
+    "merchant": "Graegham",
+    "type": "Guild Merchant",
+    "goodsPrice": "Sabiki Rig\nTarutaru Fishing Rod\nClothespole\nFastwater Fishing Rod\nSingle-Hook Fishing Rod\nCobalt Jellyfish\nCrayfish\nPamtam Kelp\nBastore Sardine\nShining Trout\nShall Shell\nCheval Salmon\nTricolored Carp\nNosteau Herring\nTiger Cod\nDark Bass\nBlack Eel\nZafmlug Bass\nRed Terrapin\nGold Lobster\nBluetail\nNoble Lady\nSilver Shark\nBastore Bream\nBlack Sole\nQuus\nGiant Catfish\nGavial Fish\nGugru Tuna\nBhefhel Marlin\nBladefish",
+    "location": "Selbina (H-9)\n\nMerchant for the Fishermen's Guild Salesroom (Open 3-18, closed Lightningday)"
+  },
+  {
+    "merchant": "Herminia",
+    "type": "Standard Merchant",
+    "goodsPrice": "Hachimaki 552-858 gil \nKenpogi 833-1294 gil \nTunic 1288-1456 gil \nTekko 458-712 gil \nMitts 602-681 gil \nSitabaki 666-1034 gil \nKyahan 424-660 gil \nSolea 556-629 gil",
+    "location": "Selbina (I-9)\n\nMerchant for Shepherd's Muster"
+  },
+  {
+    "merchant": "Mendoline",
+    "type": "Guild Merchant",
+    "goodsPrice": "Sabiki Rig\nTarutaru Fishing Rod\nClothespole\nFastwater Fishing Rod\nSingle-Hook Fishing Rod\nCobalt Jellyfish\nCrayfish\nPamtam Kelp\nBastore Sardine\nShining Trout\nShall Shell\nCheval Salmon\nTricolored Carp\nNosteau Herring\nTiger Cod\nDark Bass\nBlack Eel\nZafmlug Bass\nRed Terrapin\nGold Lobster\nBluetail\nNoble Lady\nSilver Shark\nBastore Bream\nBlack Sole\nQuus\nGiant Catfish\nGavial Fish\nGugru Tuna\nBhefhel Marlin\nBladefish",
+    "location": "Selbina (H-9)\n\nMerchant for the Fishermen's Guild Salesroom (Open 3-18, closed Lightningday)"
+  },
+  {
+    "merchant": "Quelpia",
+    "type": "Standard Merchant",
+    "goodsPrice": "Scroll of Cure II 598-676 gil \nScroll of Cure III 3334-3768 gil \nScroll of Curaga II 10304-11200 gil \nScroll of Raise 5293-5984 gil \nScroll of Holy 32200-35000 gil \nScroll of Dia II 10304-11648 gil \nScroll of Banish II 8280-9360 gil \nScroll of Protect II 6508-16192 gil \nScroll of Shell II 16192-18304 gil \nScroll of Haste 18400-20800 gil \nScroll of Enfire 4747-5366 gil \nScroll of Enblizzard 3770-4261 gil \nScroll of Enaero 2300-2600 gil \nScroll of Enstone 1867-2111 gil \nScroll of Enthunder 1393-1575 gil \nScroll of Enwater 6508-7356 gil",
+    "location": "Selbina (H-9)"
+  },
+  {
+    "merchant": "Tilala",
+    "type": "Guild Merchant",
+    "goodsPrice": "Moko Grass\nFlax Flower\nSheep Wool\nGrass Thread\nCotton Thread\nLinen Thread\nWool Thread\nSilk Thread\nSilver Thread\nGold Thread\nGrass Cloth\nCotton Cloth\nYagudo Feather",
+    "location": "Selbina (H-9)\n\nMerchant for the Weavers' Guild Salesroom (Open 6-21, closed Firesday)"
+  },
+  {
+    "merchant": "Torapiont",
+    "type": "Standard Merchant",
+    "goodsPrice": "Claws 11746-21322 gil \nMythril Dagger 7899 gil \nTuck 11845-13391 gil \nMythril Claymore 38640-43680 gil \nBattleaxe 11285-12757 gil \nGreataxe 4186-4732 gil \nWillow Wand 340-384 gil \nYew Wand 1440-1628 gil \nHolly Staff 584-660 gil \nDart 9-10 gil \nCrossbow Bolt 5-6 gil \nWooden Arrow 3-4 gil \nIron Arrow 7-10 gil",
+    "location": "Selbina (J-9)\n\nMerchant for Shepherd's Muster"
+  },
+  {
+    "merchant": "Maera",
+    "type": "Standard Merchant",
+    "goodsPrice": "Eye Drops 2387-2698 gil \nAntidote 290-328 gil \nEcho Drops 736-832 gil \nPotion 837-946 gil \nEther 4445-5025 gil",
+    "location": "Ferry Between Mhaura & Selbina (?-?)\n\nMerchant for the store underdeck"
+  },
+  {
+    "merchant": "Rajmonda",
+    "type": "Guild Merchant",
+    "goodsPrice": "Lugworm\nSabiki Rig\nMinnow\nSinking Minnow\nTarutaru Fishing Rod\nPamtam Kelp\nBastore Sardine\nShall Shell\nYellow Globe\nBluetail\nNoble Lady\nSilver Shark\nBastore Bream\nBlack Sole\nGreedie\nQuus\nGugru Tuna\nBhefhel Marlin",
+    "location": "Ferry Between Mhaura & Selbina (?-?)\n\nMerchant for the Fishermen's Guild, located underdeck (Open 1-23, closed Lightningday)"
+  },
+  {
+    "merchant": "Ghemi Sinterilo",
+    "type": "Standard Merchant",
+    "goodsPrice": "Pamamas 73-83 gil \nKazham Pineapple 55-62 gil \nMithran Tomato 36-41 gil \nKazham Peppers 55-62 gil \nCinnamon 239-270 gil \nKukuru Bean 110-124 gil \nElshimo Coconut 158 gil",
+    "location": "Kazham (G-7)\n\nLocated at a stall on the airship dock"
+  },
+  {
+    "merchant": "Khifo Ryuhkowa",
+    "type": "Standard Merchant",
+    "goodsPrice": "Kukri 5713-6458 gil \nRam-Dao 153014 gil \nBronze Spear 809-915 gil \nSpear 16228-18345 gil \nPartisan 75541 gil \nChestnut Club 1600-1809 gil \nBone Cudgel 4945-5591 gil \nChestnut Wand 5255 gil \nMahogany Staff 29752 gil \nMahogany Pole 99176 gil \nBattle Bow 39744 gil \nHawkeye 55-62 gil \nBoomerang 1610-1820 gil \nWooden Arrow 3-4 gil",
+    "location": "Kazham (H-9)\n\nMerchant for Ryuhkowa's Mercenary Merchandise"
+  },
+  {
+    "merchant": "Mamerie",
+    "type": "Standard Merchant",
+    "goodsPrice": "Gysahl Greens 62-70 gil \nChocobo Feather 7-8 gil \nPet Food Alpha Biscuit 11-12 gil \nPet Food Beta Biscuit 82-93 gil \nCarrot Broth 82-93 gil \nBug Broth 695-786 gil \nHerbal Broth 126-143 gil \nScroll of Chocobo Mazurka 50784-69000 gil \nCarrion Broth 695-786 gil",
+    "location": "Kazham (F-9)\n\nLocated near the village gate"
+  },
+  {
+    "merchant": "Nuh Celodehki",
+    "type": "Standard Merchant",
+    "goodsPrice": "Fish Mithkabob 993 gil \nBlackened Frog 3133 gil \nRoast Mushroom 316 gil \nEel Kabob 2700-3150 gil",
+    "location": "Kazham (I-7)\n\nMerchant for Celodehki's Bed & Breakfast"
+  },
+  {
+    "merchant": "Pahya Lolohoiv",
+    "type": "Standard Merchant",
+    "goodsPrice": "Distilled Water 10-12 gil \nEye Drops 2387-2698 gil \nAntidote 290-328 gil \nEcho Drops 736-832 gil \nPotion 837-946 gil \nEther 4445-5025 gil \nFiend Blood 556 gil \nPoison Dust 294-320 gil",
+    "location": "Kazham (I-8)\n\nMerchant for M & P's Market"
+  },
+  {
+    "merchant": "Tahn Posbei",
+    "type": "Standard Merchant",
+    "goodsPrice": "Lauan Shield 110-124 gil \nMahogany Shield 4581-5179 gil \nRound Shield 59607 gil \nBeetle Mask 7026-7943 gil \nBeetle Harness 10833 gil \nBeetle Mittens 5707 gil \nBeetle Subligar 8666 gil \nBeetle Leggings 5332 gil \nLeather Bandana 404-457 gil \nLeather Vest 618-698 gil \nLeather Gloves 331-374 gil \nLeather Highboots 309-349 gil \nCoeurl Gorget 28777 gil",
+    "location": "Kazham (H-9)\n\nMerchant for Posbei's Combat Gear"
+  },
+  {
+    "merchant": "Toji Mumosulah",
+    "type": "Standard Merchant",
+    "goodsPrice": "Yellow Jar 456-515 gil \nBlood Stone 95 gil \nFang Necklace 3510 gil \nBone Earring 1667 gil \nGemshorn 4747-5366 gil \nPeeled Crayfish 64 gil \nInsect Ball 36 gil \nFish Broth 165 gil \nSeedbed Soil 695 gil \nHatchet 460-520 gil \nScroll of Army's Paeon II 328-371 gil \nScroll of Army's Paeon III 3312-3744 gil",
+    "location": "Kazham (I-8)\n\nMerchant for M & P's Market"
+  },
+  {
+    "merchant": "Achika",
+    "type": "Tenshodo Merchant",
+    "goodsPrice": "Hachimaki 552-858 gil \nCotton Hachimaki 3272-5079 gil \nSoil Hachimaki 8972-13927 gil \nNodowa 20061-22456 gil \nDarksteel Nodowa 43890-52440 gil \nKenpogi 833-1294 gil \nCotton Dogi 4931-7654 gil \nSoil Gi 13266-14850 gil \nTekko 458-712 gil \nCotton Tekko 2713-4212 gil \nSoil Tekko 2713-8316 gil \nSitabaki 666-1034 gil \nCotton Sitabaki 3951-6133 gil \nSoil Sitabaki 10805-12096 gil \nKyahan 424-660 gil \nCotton Kyahan 2528-3924 gil \nSoil Kyahan 11071-12393 gil",
+    "location": "Norg (I-8)\n\n(Open 9-23, closed Darksday)"
+  },
+  {
+    "merchant": "Chiyo",
+    "type": "Tenshodo Merchant",
+    "goodsPrice": "Scroll of Absorb-VIT 41370 gil \nScroll of Absorb-MND 14070-15750 gil \nScroll of Absorb-CHR 14070-15750 gil \nScroll of Katon: Ichi 1561-1747 gil \nScroll of Hyoton: Ichi 1747 gil \nScroll of Huton: Ichi 1561-1747 gil \nScroll of Doton: Ichi 1561-1747 gil \nScroll of Raiton: Ichi 1747 gil \nScroll of Suiton: Ichi 1561-1747 gil \nScroll of Absorb-AGI 39270-41370 gil \nScroll of Absorb-INT 37800-41370 gil",
+    "location": "Norg (I-8)\n\n(Open 9-23, closed Darksday)"
+  },
+  {
+    "merchant": "Jirokichi",
+    "type": "Tenshodo Merchant",
+    "goodsPrice": "Baghnakhs 14428 gil \nClaws 11746-21322 gil \nPatas 76419 gil \nKunai 517-592 gil \nSuzume 4226 gil \nWakizashi 1404-1608 gil \nShinobi-gatana 2728-3125 gil \nUchigatana 3121-3575 gil \nKanesada 11583-13266 gil \nTachi 1836-2103 gil \nNodachi 4752-15760 gil \nOkanehira 12253-14033 gil \nKotetsu 14676-16808 gil \nKiku-Ichimonji 189945 gil \nKamayari 183516 gil \nPirate's Gun 72144 gil \nShuriken 46-87 gil \nJuji Shuriken 347 gil \nManji Shuriken 3926 gil \nMoonring Blade 101745 gil \nQuake Grenade 7333-7446 gil \nIron Arrow 7-10 gil \nFire Arrow 128-187 gil \nBullet 92-174 gil",
+    "location": "Norg (I-8)\n\n(Open 9-23, closed Darksday)"
+  },
+  {
+    "merchant": "Solby-Maholby",
+    "type": "Tenshodo Merchant",
+    "goodsPrice": "Lugworm 9-12 gil \nEarth Spirit Pact 450 gil",
+    "location": "Norg (H-9)\n\nLocated next to the water"
+  },
+  {
+    "merchant": "Vuliaie",
+    "type": "Tenshodo Merchant",
+    "goodsPrice": "Bamboo Stick 96-149 gil \nToad Oil 2700-6732 gil \nBast Parchment 810-2095 gil \nIron Sand 436 gil \nTama-Hagane 4690-10500 gil \nUrushi 55147 gil \nUchitake 66-73 gil \nTsurara 30-65 gil \nKawahori-Ogi 58-66 gil \nMakibishi 58-76 gil \nHiraishin 56-76 gil \nMizu-Deppo 44-73 gil \nGardenia Seed 369 gil \nTurmeric 431-512 gil \nCoriander 1061-1259 gil \nHoly Basil 536-700 gil \nCurry Powder 579-1188 gil \nGround Wasabi 1945-2387 gil \nRice Vinegar 150-160 gil",
+    "location": "Norg (H-8)\n\nLocated on a barge on the water (Open 9-23)"
+  },
+  {
+    "merchant": "Brave Ox",
+    "type": "Standard Merchant",
+    "goodsPrice": "Scroll of Protect IV 78200-104000 gil \nScroll of Protectra IV 74520-98800 gil \nScroll of Dispel 64400-80704 gil \nScroll of Stun 32200-32550 gil \nScroll of Flash 32200-32550 gil \nScroll of Reraise III 500000-552000 gil \nScroll of Banish III 66000-79120 gil",
+    "location": "Rabao (F-7)\n\nLocated at a tent"
+  },
+  {
+    "merchant": "Brave Wolf",
+    "type": "Standard Merchant",
+    "goodsPrice": "Buckler 31544-35658 gil \nDarksteel Buckler 60922 gil \nSilver Bangles 24641 gil \nBanded Mail 66792-72600 gil \nMufflers 35673-38775 gil \nBreeches 53130-57750 gil \nSollerets 32637-35475 gil \nBlack Tunic 9527-10356 gil \nWhite Mitts 4443-4830 gil \nBlack Slacks 6348-6900 gil \nSandals 4128-4488 gil \nPadded Armor 28968-32747 gil \nIron Mittens 15897-17971 gil \nIron Subligar 23316-26357 gil \nLeggings 14484-16373 gil",
+    "location": "Rabao (G-7)\n\nLocated at a tent"
+  },
+  {
+    "merchant": "Generoit",
+    "type": "Standard Merchant",
+    "goodsPrice": "Gysahl Greens 62-70 gil \nChocobo Feather 7-8 gil \nPet Food Alpha Biscuit 11-12 gil \nPet Food Beta Biscuit 82-93 gil \nCarrot Broth 82-93 gil \nBug Broth 695-786 gil \nHerbal Broth 126-143 gil \nCarrion Broth 695-786 gil \nScroll of Chocobo Mazurka 50784-69000 gil",
+    "location": "Rabao (G-6)\n\nLocated at a tent"
+  },
+  {
+    "merchant": "Scamplix",
+    "type": "Standard Merchant",
+    "goodsPrice": "Distilled Water 10-12 gil \nMeat Jerky 110-124 gil \nGoblin Bread 276-300 gil \nEther 4445-5025 gil \nThundermelon 299-338 gil \nWatermelon 184-208 gil \nPotion 837-946 gil \nAntidote 290-328 gil \nBlinding Potion 1104 gil \nMythril Earring 4140-4500 gil \nWater Jug 184 gil \nCactus Arm 736 gil",
+    "location": "Rabao (F-7)\n\nLocated at a tent"
+  },
+  {
+    "merchant": "Shiny Teeth",
+    "type": "Standard Merchant",
+    "goodsPrice": "Dagger 1867-2111 gil \nKris 11128-12096 gil \nKnife 2231-2522 gil \nScimitar 4163-4706 gil \nTulwar 35696 gil \nFalchion 62560-70720 gil \nRod 2439-2758 gil \nJamadhars 104944 gil \nComposite Bow 24150 gil \nTathlum 294-332 gil \nIron Arrow 7-10 gil \nBullet 92-174 gil \nRiot Grenade 5520 gil \nChakram 9196 gil",
+    "location": "Rabao (F-6)\n\nLocated at a tent"
+  },
+  {
+    "merchant": "Mep Nhapopoluko",
+    "type": "Guild Merchant",
+    "goodsPrice": "Fastwater Fishing Rod\nSingle-Hook Fishing Rod\nBluetail\nNoble Lady\nTrilobite\nShall Shell\nZafmlug Bass\nMoorish Idol\nBibikibo\nBibiki Urchin\nPamtam Kelp\nCobalt Jellyfish",
+    "location": "Bibiki Bay (H-7)\n\nMerchant for the Fisherman's Guild (closed on Lightningday)"
+  },
+  {
+    "merchant": "Pohka Chichiyowahl",
+    "type": "Standard Merchant",
+    "goodsPrice": "Fastwater Fishing Rod 1667 gil \nSingle-Hook Fishing Rod 15398 gil",
+    "location": "Bibiki Bay - Purgonorgo Isle (H-7)\n\nLocated near the water"
+  },
+  {
+    "merchant": "Caiphimonride",
+    "type": "Standard Merchant",
+    "goodsPrice": "Dagger 1867-2111 gil \nLongsword 8478-9584 gil \nRusty Bolt 8 gil \nFalx 93240 gil CoP - Chapter 4\nVoulge 51905 gil CoP - Chapter 4",
+    "location": "Tavnazian Safehold (G-7)\n\nLocated on the upper level; prices specific to Caiphimonride:Dagger - 4060 gil\nLongsword - 18432\nRusty Bolt - 8 gil"
+  },
+  {
+    "merchant": "Komalata",
+    "type": "Standard Merchant",
+    "goodsPrice": "Meat Jerky 110-124 gil \nRock Salt 14-16 gil \nRye Flour 36-41 gil \nDistilled Water 10-12 gil \nApple Vinegar 91 gil CoP - Chapter 4\nBlack Bread 110-124 gil CoP - Chapter 4\nSan d'Orian Flour 55-62 gil CoP - Chapter 4 \nSan d'Orian Carrot 29-33 gil CoP - Chapter 4 \nMillioncorn 44-49 gil CoP - Chapter 4 \nApple Mint 290-316 gil CoP - Chapter 4",
+    "location": "Tavnazian Safehold (G-7)\n\nLocated on the main level; prices specific to Komalata:Meat Jerky - 240 gil\nRock Salt - 32 gil\nRye Flour - 80 gil\nApple Vinegar - 176 gil\nBlack Bread - 240 gil\nSan d'Orian Flour - 120 gil"
+  },
+  {
+    "merchant": "Mazuro-Oozuro",
+    "type": "Standard Merchant",
+    "goodsPrice": "Lufaise Fly 99-108 gil \nClothespole 2640 gil \nArrowwood Log 18-20 gil \nElm Log 7800 gil \nScroll of Banish III 66000-79120 gil CoP - Chapter 4",
+    "location": "Tavnazian Safehold (F-9)\n\nLocated on the main level; prices specific to Mazuro-Oozuro:Arrowwood Log - 200 gil\nBanish III - 66,000 gil"
+  },
+  {
+    "merchant": "Melleupaux",
+    "type": "Standard Merchant",
+    "goodsPrice": "Dagger 1867-2111 gil \nLongsword 8478-9584 gil \nRusty Bolt 8 gil \nFalx 93240 gil CoP - Chapter 4\nVoulge 51905 gil CoP - Chapter 4",
+    "location": "Tavnazian Safehold (G-8)\n\nLocated on the upper level; prices specific to Melleupaux:Dagger - 4060 gil\nLongsword - 18432\nRusty Bolt - 8 gil"
+  },
+  {
+    "merchant": "Migran",
+    "type": "Standard Merchant",
+    "goodsPrice": "Brass Harness 2286-2584 gil \nHolly Clogs 1495-1690 gil \nBarone Cosciales 4042200 gil CoP - Chapter 4\nBarone Gambieras\nBarone Manopolas 7276200 gil CoP - Chapter 4\nVir Subligar 8000000 gil CoP - Chapter 4 \nFemina Subligar 8000000 gil CoP - Chapter 4",
+    "location": "Tavnazian Safehold (I-9)\n\nLocated on the main level; prices specific to Migran:Barone Gambieras - 25,210,200 gil"
+  },
+  {
+    "merchant": "Misseulieu",
+    "type": "Standard Merchant",
+    "goodsPrice": "Brass Harness 2286-2584 gil \nHolly Clogs 1495-1690 gil \nBarone Cosciales 4042200 gil CoP - Chapter 4\nBarone Gambieras\nBarone Manopolas 7276200 gil CoP - Chapter 4\nVir Subligar 8000000 gil CoP - Chapter 4 \nFemina Subligar 8000000 gil CoP - Chapter 4",
+    "location": "Tavnazian Safehold (I-9)\n\nLocated on the main level; prices specific to Misseulieu:Barone Gambieras - 25,210,200 gil"
+  },
+  {
+    "merchant": "Nilerouche",
+    "type": "Standard Merchant",
+    "goodsPrice": "Lufaise Fly 99-108 gil \nClothespole 2640 gil \nArrowwood Log 18-20 gil \nElm Log 7800 gil \nScroll of Banish III 66000-79120 gil CoP - Chapter 4",
+    "location": "Tavnazian Safehold (F-7)\n\nLocated on the main level; prices specific to Nilerouche:Arrowwood Log - 200 gil\nBanish III - 66,000 gil"
+  },
+  {
+    "merchant": "Beugungel",
+    "type": "Guild Merchant",
+    "goodsPrice": "Bundling Twine\nHatchet\nArrowwood Log\nAsh Log\nYew Log\nWillow Log\nWalnut Log",
+    "location": "Carpenters' Landing (H-8)\n\nLocated at the North Landing. Merchant for the Carpenters' Guild (Open 5-22); has cheaper prices than standard merchants for: Hatchet, Bundling Twine."
+  },
+  {
+    "merchant": "Bartabaq",
+    "type": "Outpost Merchant",
+    "goodsPrice": "Movalpolos Water 736-832 gil \nGoblin Doll 490-500 gil \nCopper Nugget 105 gil \nCoral Fungus 694-785 gil \nKopparnickel Ore 6500-7800 gil",
+    "location": "Oldton Movalpolos (F-10)\n\nEssentially an Outpost Merchant; only sells items to citizens of the nation that controls the Movalpolos region. Also takes items in exchange for possible Conquest Points."
+  }
+]

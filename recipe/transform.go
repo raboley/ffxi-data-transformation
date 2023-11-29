@@ -10,16 +10,16 @@ import (
 )
 
 // TransformRecipes processes the input JSON and returns the resulting JSON string.
-func TransformRecipes(inputJSON string) (string, error) {
+func TransformRecipes(inputJSON string) ([]CraftingRecipe, error) {
 	// Unmarshal the entire JSON data
 	var recipes []CraftData
 	err := json.Unmarshal([]byte(inputJSON), &recipes)
 	if err != nil {
-		return "", err
+		return nil, err
 	}
 
 	// Create a slice of CraftingRecipe objects
-	var craftData []CraftingRecipe
+	var craftingRecipes []CraftingRecipe
 	for _, recipe := range recipes {
 		// Extract craft type from the "Text" field using regex
 
@@ -44,7 +44,7 @@ func TransformRecipes(inputJSON string) (string, error) {
 		requiredTools := extractToolRequirement(recipe.OtherRequirements)
 
 		// Create CraftingRecipe object
-		craftData = append(craftData, CraftingRecipe{
+		craftingRecipes = append(craftingRecipes, CraftingRecipe{
 			Result:             recipe.RecipeItem,
 			Crystal:            recipe.Crystal,
 			MainCraft:          realMainCraftType,
@@ -56,13 +56,8 @@ func TransformRecipes(inputJSON string) (string, error) {
 		})
 	}
 
-	// Marshal the CraftingRecipe slice into JSON
-	outputData, err := json.MarshalIndent(craftData, "", "  ")
-	if err != nil {
-		return "", err
-	}
+	return craftingRecipes, nil
 
-	return string(outputData), nil
 }
 
 func extractRecipeQuantity(itemName string) int {
