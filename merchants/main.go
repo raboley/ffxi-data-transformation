@@ -19,9 +19,10 @@ type Merchant struct {
 }
 
 type ItemInfo struct {
-	ItemName string
-	MinPrice int
-	MaxPrice int
+	ItemName        string
+	MinPrice        int
+	MaxPrice        int
+	RankRequirement string
 }
 
 type MerchantInfo struct {
@@ -39,57 +40,99 @@ func extractMerchantInfo(jsonData []byte) ([]MerchantInfo, error) {
 
 	var merchantInfoList []MerchantInfo
 	for _, merchant := range merchants {
-		goodsList, prices := extractGoodsAndPrices(merchant.GoodsPrice)
-		items := make([]ItemInfo, len(goodsList))
-		for i, item := range goodsList {
-			items[i] = ItemInfo{
-				ItemName: strings.TrimSpace(item),
-				MinPrice: prices[i*2],
-				MaxPrice: prices[i*2+1],
-			}
+		goodsList, err := extractGoodsAndPrices(merchant.GoodsPrice)
+		if err != nil {
+			return nil, err
 		}
-
-		zone, rank := extractZoneAndRank(merchant.Location)
+		zone, err := extractZone(merchant.Location)
+		if err != nil {
+			return nil, err
+		}
 
 		merchantInfoList = append(merchantInfoList, MerchantInfo{
 			Merchant: merchant.Merchant,
-			Items:    items,
+			Items:    goodsList,
 			Zone:     zone,
-			Rank:     rank,
 		})
 	}
 
 	return merchantInfoList, nil
 }
 
-func extractGoodsAndPrices(goodsPrice string) ([]string, []int) {
-	re := regexp.MustCompile(`([^\d]+) (\d+)-(\d+) gil`)
+func extractGoodsAndPrices(goodsPrice string) ([]ItemInfo, error) {
+	re := regexp.MustCompile(`([^\d]+) (\d+)(?:-(\d+))? gil`)
 	matches := re.FindAllStringSubmatch(goodsPrice, -1)
 
-	var goodsList []string
-	var prices []int
+	var items []ItemInfo
 	for _, match := range matches {
 		itemName := strings.TrimSpace(match[1])
 		// Handle cases where the item name contains ranking information
 		if strings.Contains(itemName, "\n") {
-			itemName = strings.TrimSpace(strings.Split(itemName, "\n")[1])
+			// Extract rank information from the item text
+			rankMatch := regexp.MustCompile(`(\w+ place)`)
+			rankSubmatch := rankMatch.FindStringSubmatch(itemName)
+			if len(rankSubmatch) > 1 {
+				rank := rankSubmatch[1]
+				// Remove rank information from the item name
+				itemName = strings.TrimSpace(strings.Replace(itemName, rank, "", 1))
+				// Create an ItemInfo struct and include rank information
+				minPrice, err := strconv.Atoi(match[2])
+				if err != nil {
+					return nil, err
+				}
+				var maxPrice int
+				if match[3] != "" {
+					maxPrice, err = strconv.Atoi(match[3])
+					if err != nil {
+						return nil, err
+					}
+				} else {
+					maxPrice = minPrice
+				}
+				item := ItemInfo{
+					ItemName:        itemName,
+					MinPrice:        minPrice,
+					MaxPrice:        maxPrice,
+					RankRequirement: rank,
+				}
+				items = append(items, item)
+			}
+		} else {
+			minPrice, err := strconv.Atoi(match[2])
+			if err != nil {
+				return nil, err
+			}
+			// Check if there's a specified max price
+			var maxPrice int
+			if match[3] != "" {
+				maxPrice, err = strconv.Atoi(match[3])
+				if err != nil {
+					return nil, err
+				}
+			} else {
+				// If no max price is specified, set it equal to the min price
+				maxPrice = minPrice
+			}
+			// Create an ItemInfo struct without rank information
+			item := ItemInfo{
+				ItemName: itemName,
+				MinPrice: minPrice,
+				MaxPrice: maxPrice,
+			}
+			items = append(items, item)
 		}
-		goodsList = append(goodsList, itemName)
-		minPrice, _ := strconv.Atoi(match[2])
-		maxPrice, _ := strconv.Atoi(match[3])
-		prices = append(prices, minPrice, maxPrice)
 	}
 
-	return goodsList, prices
+	return items, nil
 }
 
-func extractZoneAndRank(location string) (string, string) {
-	re := regexp.MustCompile(`([^\(]+) \(([^\)]+)\)`)
+func extractZone(location string) (string, error) {
+	re := regexp.MustCompile(`([^\(]+) \([^\)]+\)`)
 	match := re.FindStringSubmatch(location)
-	if len(match) > 2 {
-		return strings.TrimSpace(match[1]), strings.TrimSpace(match[2])
+	if len(match) > 1 {
+		return strings.TrimSpace(match[1]), nil
 	}
-	return "", ""
+	return "", fmt.Errorf("unable to extract zone from location: %s", location)
 }
 
 func writeMerchantFiles(merchantInfoList []MerchantInfo) error {
