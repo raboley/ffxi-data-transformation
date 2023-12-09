@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "Harvesting Point",
+    "LevelRange": null,
+    "ZoneName": "Bhaflau_Thickets",
+    "ItemDrops": [],
+    "ItemDropInfos": [
+      {
+        "Name": "Mohbwa Grass",
+        "FriendlyName": "Mohbwa_Grass",
+        "TotalKnownDrops": 15
+      },
+      {
+        "Name": "Fresh Marjoram",
+        "FriendlyName": "Fresh_Marjoram",
+        "TotalKnownDrops": 15
+      },
+      {
+        "Name": "Eastern Ginger",
+        "FriendlyName": "Eastern_Ginger",
+        "TotalKnownDrops": 4
+      }
+    ],
+    "TotalKnownDefeated": 100
+  }
+]

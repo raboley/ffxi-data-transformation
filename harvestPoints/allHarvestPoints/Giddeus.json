@@ -1,0 +1,21 @@
+[
+  {
+    "Name": "Harvesting Point",
+    "LevelRange": null,
+    "ZoneName": "Giddeus",
+    "ItemDrops": [],
+    "ItemDropInfos": [
+      {
+        "Name": "Red_Moko_Grass",
+        "FriendlyName": "Red_Moko_Grass",
+        "TotalKnownDrops": 15
+      },
+      {
+        "Name": "Grain Seeds",
+        "FriendlyName": "Grain_Seeds",
+        "TotalKnownDrops": 2
+      }
+    ],
+    "TotalKnownDefeated": 100
+  }
+]
