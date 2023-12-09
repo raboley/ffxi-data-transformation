@@ -11,7 +11,12 @@ import (
 )
 
 func main() {
-	inputJSON, err := os.ReadFile("/Users/russellboley/Documents/all_crafting.json")
+	//fileName := "Goldsmithing Guild Recipes _Synthesis_ - Final Fantasy XI - somepage.com.json"
+	//fileName := "clothcraft Guild Recipes _Synthesis_ - Final Fantasy XI - somepage.com.json"
+	//fileName := "Leatherworking Guild Recipes _Synthesis_ - Final Fantasy XI - somepage.com.json"
+	fileName := "smithing and woodworking Guild Recipes _Synthesis_ - Final Fantasy XI - somepage.com"
+	filePath := fmt.Sprintf("/Users/russellboley/Documents/%s", fileName)
+	inputJSON, err := os.ReadFile(filePath)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -21,7 +26,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	allRecipeFilePath := "recipe/all_recipes"
+	allRecipeFilePath := "/Users/russellboley/git/FantasyAi/FinalFantasyData/CraftingRecipes/not_ready_for_yet"
 	os.Mkdir(allRecipeFilePath, 0777)
 	for _, recipe := range craftingRecipes {
 		recipeJSON, err := json.MarshalIndent(recipe, "", "  ")
@@ -37,7 +42,9 @@ func main() {
 
 		_, err = os.Stat(filePath)
 		if err == nil {
-			filePath = addCharacterBeforeExtension(filePath, '2')
+			continue
+
+			//filePath = addCharacterBeforeExtension(filePath, '2')
 			//log.Fatalf("File at path %s already exists", filePath)
 		}
 

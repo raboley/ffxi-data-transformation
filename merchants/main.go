@@ -19,17 +19,16 @@ type Merchant struct {
 }
 
 type ItemInfo struct {
-	ItemName        string
+	Name            string
 	MinPrice        int
 	MaxPrice        int
 	RankRequirement string
 }
 
 type MerchantInfo struct {
-	Merchant string
-	Items    []ItemInfo
-	Zone     string
-	Rank     string // New field to store the ranking information
+	Name  string
+	Items []ItemInfo
+	Zone  string
 }
 
 func extractMerchantInfo(jsonData []byte) ([]MerchantInfo, error) {
@@ -50,9 +49,9 @@ func extractMerchantInfo(jsonData []byte) ([]MerchantInfo, error) {
 		}
 
 		merchantInfoList = append(merchantInfoList, MerchantInfo{
-			Merchant: merchant.Merchant,
-			Items:    goodsList,
-			Zone:     zone,
+			Name:  merchant.Merchant,
+			Items: goodsList,
+			Zone:  zone,
 		})
 	}
 
@@ -90,7 +89,7 @@ func extractGoodsAndPrices(goodsPrice string) ([]ItemInfo, error) {
 					maxPrice = minPrice
 				}
 				item := ItemInfo{
-					ItemName:        itemName,
+					Name:            itemName,
 					MinPrice:        minPrice,
 					MaxPrice:        maxPrice,
 					RankRequirement: rank,
@@ -115,7 +114,7 @@ func extractGoodsAndPrices(goodsPrice string) ([]ItemInfo, error) {
 			}
 			// Create an ItemInfo struct without rank information
 			item := ItemInfo{
-				ItemName: itemName,
+				Name:     itemName,
 				MinPrice: minPrice,
 				MaxPrice: maxPrice,
 			}
@@ -130,9 +129,32 @@ func extractZone(location string) (string, error) {
 	re := regexp.MustCompile(`([^\(]+) \([^\)]+\)`)
 	match := re.FindStringSubmatch(location)
 	if len(match) > 1 {
-		return strings.TrimSpace(match[1]), nil
+		zone := strings.TrimSpace(match[1])
+		return sanitizeZoneName(zone), nil
 	}
 	return "", fmt.Errorf("unable to extract zone from location: %s", location)
+}
+
+func sanitizeZoneName(zone string) string {
+	// Split the zone name into words
+	words := strings.Fields(zone)
+
+	// Check for cardinal directions or the word "port" and move them to the front
+	for i, word := range words {
+		lowercaseWord := strings.ToLower(word)
+		if lowercaseWord == "north" || lowercaseWord == "south" || lowercaseWord == "east" || lowercaseWord == "west" || lowercaseWord == "port" {
+			// Move the word to the front
+			words = append([]string{word}, append(words[:i], words[i+1:]...)...)
+			break
+		}
+	}
+
+	// Join the words back together
+	sanitized := strings.Join(words, "_")
+	// Remove special characters and apostrophes
+	sanitized = regexp.MustCompile(`[^a-zA-Z0-9_]`).ReplaceAllString(sanitized, "")
+
+	return sanitized
 }
 
 func writeMerchantFiles(merchantInfoList []MerchantInfo) error {
@@ -187,5 +209,5 @@ func main() {
 		return
 	}
 
-	fmt.Println("Merchant files written successfully.")
+	fmt.Println("Name files written successfully.")
 }

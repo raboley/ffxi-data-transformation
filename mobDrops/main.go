@@ -10,7 +10,7 @@ import (
 )
 
 type ItemInfo struct {
-	ItemName string `json:"ItemName"`
+	ItemName string `json:"Name"`
 	NPC      string `json:"NPC"`
 	Zone     string `json:"Zone"`
 	Count    string `json:"Count"`
